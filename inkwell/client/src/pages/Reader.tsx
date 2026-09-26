@@ -60,7 +60,7 @@ export function Reader() {
       )}
       {error && <p className="mb-4 text-sm text-sepia-dark" role="alert">{error}</p>}
 
-      <div className="grid gap-6 lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)]">
+      <div className="grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)]">
         <div className="lg:sticky lg:top-20 lg:self-start">
           <ImageViewer src={doc.imageUrl} alt="The uploaded letter" />
         </div>

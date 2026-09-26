@@ -86,7 +86,7 @@ export function TranscriptTabs({ doc, onRetry }: { doc: DocumentDTO; onRetry?: (
 
   return (
     <div>
-      <div role="tablist" aria-label="Letter views" onKeyDown={onKeyDown} className="-mx-1 flex gap-1 overflow-x-auto border-b border-rule px-1 pb-2">
+      <div role="tablist" aria-label="Letter views" onKeyDown={onKeyDown} className="-mx-1 flex gap-1 overflow-x-auto border-b border-rule px-1 pb-2 xl:flex-wrap">
         {TABS.map((t) => (
           <button
             key={t.key}
@@ -99,7 +99,7 @@ export function TranscriptTabs({ doc, onRetry }: { doc: DocumentDTO; onRetry?: (
             aria-controls={`panel-${t.key}`}
             tabIndex={active === t.key ? 0 : -1}
             onClick={() => setActive(t.key)}
-            className={`shrink-0 rounded-full px-3.5 py-2 text-sm font-medium ${
+            className={`shrink-0 rounded-full px-3 py-2 text-sm font-medium ${
               active === t.key ? "bg-ink text-parchment" : "text-ink-soft hover:bg-parchment-deep hover:text-ink"
             }`}
           >
