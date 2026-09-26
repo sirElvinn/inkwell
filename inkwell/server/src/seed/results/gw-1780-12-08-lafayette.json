@@ -3,7 +3,7 @@
   "title": "Washington introduces Lafayette (1780)",
   "imageSha256": "184da994c148822725d980bdc80f0307e7e22acb50e6b36d30d8af561450ad96",
   "pipelineVersion": "v1",
-  "frozenAt": "2026-09-26T19:13:00.623Z",
+  "frozenAt": "2026-09-26T21:25:27.012Z",
   "transcription": {
     "not_a_manuscript": false,
     "lines": [
@@ -13,11 +13,11 @@
       },
       {
         "n": 2,
-        "text": "D Sir;"
+        "text": "D Sir,"
       },
       {
         "n": 3,
-        "text": "I have the pleasure of introdu"
+        "text": "I have the pleasure of introdu-"
       },
       {
         "n": 4,
@@ -25,11 +25,11 @@
       },
       {
         "n": 5,
-        "text": "Fayette a Majr Genl. and as an officr of rank in those of France, in the American Army, his"
+        "text": "Fayette a Majr Genl and as an offic. of rank in the servce of France, in the American Army, - His"
       },
       {
         "n": 6,
-        "text": "family, fortune & illustrious connexions in"
+        "text": "Genl family, fortune & illustrious connexion in"
       },
       {
         "n": 7,
@@ -41,11 +41,11 @@
       },
       {
         "n": 9,
-        "text": "America is under to him for his"
+        "text": "America is under to him aware for his"
       },
       {
         "n": 10,
-        "text": "early attachment to her rights – his great Zeal"
+        "text": "early attachment to her rights, - his great zeal"
       },
       {
         "n": 11,
@@ -57,11 +57,11 @@
       },
       {
         "n": 13,
-        "text": "to show him every civility in your power."
+        "text": "to shew him every civility in your power."
       },
       {
         "n": 14,
-        "text": "It is probable that he may be accom"
+        "text": "It is probable that he may be accom-"
       },
       {
         "n": 15,
@@ -69,7 +69,7 @@
       },
       {
         "n": 16,
-        "text": "Noailles, & Count de Damas, two Gentn. of fami"
+        "text": "Noailles, & Count de Damas, two gentn of fami-"
       },
       {
         "n": 17,
@@ -77,7 +77,7 @@
       },
       {
         "n": 18,
-        "text": "Rhode Island, whose Zeal to serve as marins leads them to make"
+        "text": "Rhode Island. whose zeal to serve America lead them to make"
       },
       {
         "n": 19,
@@ -93,7 +93,7 @@
       },
       {
         "n": 22,
-        "text": "– Should this event take place I beg leave"
+        "text": "- Should this event take place I beg leave"
       },
       {
         "n": 23,
@@ -109,7 +109,7 @@
       },
       {
         "n": 26,
-        "text": "Yr. Most obedt. Servt"
+        "text": "Yr Most obedt Servt"
       },
       {
         "n": 27,
@@ -118,22 +118,21 @@
     ],
     "uncertain": [
       {
-        "line": 18,
-        "reading": "marins",
+        "line": 5,
+        "reading": "servce",
         "alternatives": [
-          "marines",
-          "mariners"
+          "service"
         ],
-        "reason": "Abbreviated spelling with superscript"
+        "reason": "Abbreviated spelling in interlinear insertion."
       }
     ],
-    "notes": "Library of Congress stamp at top left, page number 235 at top right, docket number 159-63 at bottom left.",
-    "script_description": "Fluent 18th-century cursive secretary hand in dark brown ink."
+    "notes": "Library of Congress stamp, docket number (235) at top right, and archival number 159-63 at bottom left.",
+    "script_description": "Fluent 18th-century Washington cursive hand in dark brown ink."
   },
   "modernization": {
-    "modern_text": "New Windsor. Decr [?] 28th 1780. Dear Sir; I have the pleasure of introducing to your acquaintance the Marquis de la Fayette a Major General and as an officer of rank in those of France, in the American Army, his family, fortune & illustrious connexions in France are alone sufficient to entitle him to our highest respect, but when the obligation which America is under to him for his early attachment to her rights – his great Zeal & powerful support of her cause are known I am persuaded it will give you pleasure to show him every civility in your power. It is probable that he may be accompanied by his Brother in law the Count de Noailles, & Count de Damas, two Gentlemen of family, fortune & rank in the French Army at Rhode Island, whose Zeal to serve as marines [?] leads them to make a Southern Campaign this winter, if they can obtain permission of the Count de Rochambeau Commanding the French Army at Rhode Island – Should this event take place I beg leave to recommend them also to your attention. With much esteem & regard I am Dear Sir Your Most obedient Servant George Washington",
-    "plain_english": "Dear Sir, I am pleased to introduce the Marquis de la Fayette to you. He is a major general in the American army and an officer of high rank in France. His family, wealth, and famous connections in France deserve our highest respect. Furthermore, America owes him a great debt for his early support of our rights, his great enthusiasm, and his powerful backing of our cause, so I am sure you will be glad to show him every possible courtesy. He might be joined by his brother-in-law, the Count de Noailles, and the Count de Damas. They are well-born, wealthy, and high-ranking gentlemen in the French army at Rhode Island, and their eagerness to serve as marines leads them to join a southern campaign this winter, provided they get permission from Count de Rochambeau, who commands the French army in Rhode Island. If this happens, I ask that you also look out for them. With much esteem and regard, I am your most obedient servant, George Washington.",
-    "summary": "George Washington writes a letter of introduction for the Marquis de la Fayette, a major general in the American army, asking the recipient to treat him with great respect and civility. Washington also recommends two other French noblemen, the Count de Noailles and the Count de Damas, if they participate in a southern campaign during the winter.",
+    "modern_text": "New Windsor. Decr 28th 1780. Dear Sir, I have the pleasure of introducing to your acquaintance the Marquis de la Fayette a Major General and as an officer of rank in the service [?] of France, in the American Army, - His General family, fortune & illustrious connexion in France are alone sufficient to entitle him to our highest respect, but when the obligation which America is under to him aware for his early attachment to her rights, - his great zeal & powerful support of her cause are known I am persuaded it will give you pleasure to shew him every civility in your power. It is probable that he may be accompanied by his Brother in law the Count de Noailles, & Count de Damas, two gentlemen of family, fortune & rank in the French Army at Rhode Island. whose zeal to serve America lead them to make a Southern Campaign this winter, if they can obtain permission of the Count de Rochambeau Commanding the French Army at Rhode Island - Should this event take place I beg leave to recommend them also to your attention. With much esteem & regard I am Dear Sir Your Most obedient Servant G Washington",
+    "plain_english": "New Windsor, December 28, 1780. Dear Sir, I am pleased to introduce the Marquis de la Fayette to you. He is a major general and a high-ranking officer in the French service within the American army. His aristocratic family, wealth, and famous connections in France already entitle him to our highest respect. Furthermore, America owes him a great debt because of his early dedication to our rights, his immense enthusiasm, and his strong support of our cause, so I am sure you will be glad to show him every possible courtesy. He may also be accompanied by his brother-in-law, the Count de Noailles, and the Count de Damas, who are two well-born, wealthy, and high-ranking gentlemen in the French army stationed at Rhode Island. Their eagerness to serve America might lead them to participate in a southern campaign this winter, provided they get permission from Count de Rochambeau, who commands the French army at Rhode Island. If this happens, I ask that you also look after them and pay them attention. With much esteem and regard, I am, Dear Sir, your most obedient servant, G. Washington.",
+    "summary": "George Washington writes a letter of introduction on December 28, 1780, presenting the Marquis de la Fayette to an unnamed recipient. He asks that the recipient show hospitality to Lafayette and potentially his noble French companions, the Count de Noailles and the Count de Damas.",
     "glossary": [
       {
         "original": "Decr",
@@ -142,55 +141,37 @@
         "explanation": "An abbreviation for the month of December."
       },
       {
-        "original": "D",
-        "modern": "Dear",
+        "original": "D Sir",
+        "modern": "Dear Sir",
         "category": "abbreviation",
-        "explanation": "An abbreviation used in the salutation for the word Dear."
+        "explanation": "A standard eighteenth-century abbreviation for Dear Sir used in letter salutations."
       },
       {
-        "original": "Majr Genl.",
+        "original": "Majr Genl",
         "modern": "Major General",
         "category": "abbreviation",
         "explanation": "An abbreviation for the military rank of Major General."
       },
       {
-        "original": "officr",
-        "modern": "officer",
+        "original": "servce",
+        "modern": "service",
         "category": "spelling",
-        "explanation": "An 18th-century spelling omitting letters from the modern spelling."
+        "explanation": "An eighteenth-century spelling variant or contraction for service."
       },
       {
-        "original": "connexions",
-        "modern": "connections",
-        "category": "spelling",
-        "explanation": "An alternative historical spelling of connections using an 'x'."
-      },
-      {
-        "original": "Zeal",
-        "modern": "zeal",
-        "category": "spelling",
-        "explanation": "Capitalized mid-sentence in the 18th-century style to emphasize enthusiasm or fervor."
-      },
-      {
-        "original": "Gentn.",
-        "modern": "Gentlemen",
+        "original": "gentn",
+        "modern": "gentlemen",
         "category": "abbreviation",
-        "explanation": "An abbreviation for the word gentlemen."
+        "explanation": "An abbreviation for gentlemen."
       },
       {
-        "original": "marins",
-        "modern": "marines",
-        "category": "spelling",
-        "explanation": "A period spelling or abbreviation referring to naval soldiers."
-      },
-      {
-        "original": "Yr.",
+        "original": "Yr",
         "modern": "Your",
         "category": "abbreviation",
         "explanation": "An abbreviation for the possessive pronoun your."
       },
       {
-        "original": "obedt.",
+        "original": "obedt",
         "modern": "obedient",
         "category": "abbreviation",
         "explanation": "An abbreviation for the word obedient."
@@ -199,7 +180,13 @@
         "original": "Servt",
         "modern": "Servant",
         "category": "abbreviation",
-        "explanation": "An abbreviation for the word servant used in letter closings."
+        "explanation": "An abbreviation for the word servant, commonly used in formal letter sign-offs."
+      },
+      {
+        "original": "&",
+        "modern": "and",
+        "category": "symbol",
+        "explanation": "The ampersand symbol used to mean the word and."
       }
     ]
   },
@@ -208,22 +195,22 @@
       "author": {
         "value": "George Washington",
         "confidence": "high",
-        "evidence": "G Washington"
+        "evidence": "Signed 'G Washington' on line 27."
       },
       "recipient": {
         "value": null,
         "confidence": "low",
-        "evidence": "D Sir"
+        "evidence": "Addressed only as 'D Sir' on lines 2 and 25 without an explicit name or title."
       },
       "date": {
-        "value": "December 28, 1780",
+        "value": "1780-12-28",
         "confidence": "high",
-        "evidence": "Decr 28th 1780."
+        "evidence": "Dated 'Decr 28th 1780.' on line 1."
       },
       "place": {
         "value": "New Windsor, New York",
         "confidence": "high",
-        "evidence": "New Windsor."
+        "evidence": "Dateline specifies 'New Windsor.' on line 1, Washington's winter headquarters in late 1780."
       }
     },
     "entities": [
@@ -231,7 +218,7 @@
         "surface": "New Windsor",
         "canonical_name": "New Windsor, New York",
         "type": "place",
-        "description": "A town in New York where Washington's army sometimes encamped during the Revolutionary War.",
+        "description": "A town in Orange County, New York, where George Washington established his winter headquarters in late 1780.",
         "confidence": "high",
         "lines": [
           1
@@ -239,9 +226,9 @@
       },
       {
         "surface": "Marquis de la Fayette",
-        "canonical_name": "Gilbert du Motier, Marquis de Lafayette",
+        "canonical_name": "Gilbert du Motier, marquis de Lafayette",
         "type": "person",
-        "description": "A French aristocrat and military officer who volunteered to serve in the Continental Army during the American Revolution.",
+        "description": "A French aristocrat and military officer who joined the Continental Army as a major general and became a close confidant of George Washington.",
         "confidence": "high",
         "lines": [
           4,
@@ -249,10 +236,10 @@
         ]
       },
       {
-        "surface": "France",
+        "surface": "servce of France",
         "canonical_name": "France",
         "type": "place",
-        "description": "The European nation allied with the United States against Great Britain during the Revolutionary War.",
+        "description": "The Kingdom of France, a key military and financial ally of the United States during the American Revolutionary War.",
         "confidence": "high",
         "lines": [
           5,
@@ -263,7 +250,7 @@
         "surface": "American Army",
         "canonical_name": "Continental Army",
         "type": "organization",
-        "description": "The military force established by the Thirteen Colonies to fight the British forces.",
+        "description": "The unified military force established by the Second Continental Congress to fight the Revolutionary War, led by George Washington.",
         "confidence": "high",
         "lines": [
           5
@@ -273,17 +260,18 @@
         "surface": "America",
         "canonical_name": "United States",
         "type": "place",
-        "description": "The insurgent colonies fighting for independence from Great Britain.",
+        "description": "The newly declared independent American states collectively waging war against Great Britain.",
         "confidence": "high",
         "lines": [
-          9
+          9,
+          18
         ]
       },
       {
-        "surface": "Brother in law the Count de Noailles",
-        "canonical_name": "Louis Marie de Noailles, Vicomte de Noailles",
+        "surface": "Count de Noailles",
+        "canonical_name": "Louis-Marie de Noailles",
         "type": "person",
-        "description": "A French nobleman and military officer, brother-in-law to Lafayette.",
+        "description": "A French aristocrat, military officer, and brother-in-law of Lafayette who served in Rochambeau's expeditionary army.",
         "confidence": "high",
         "lines": [
           15,
@@ -292,40 +280,19 @@
       },
       {
         "surface": "Count de Damas",
-        "canonical_name": "Charles de Damas",
+        "canonical_name": "Charles-César de Damas d'Antigny",
         "type": "person",
-        "description": "A French nobleman and officer serving in the French forces in America.",
+        "description": "A French officer who served as an aide-de-camp to General Rochambeau during the American Revolutionary War.",
         "confidence": "medium",
         "lines": [
           16
         ]
       },
       {
-        "surface": "Rhode Island",
-        "canonical_name": "Rhode Island",
-        "type": "place",
-        "description": "A state in New England where French forces under Rochambeau were stationed.",
-        "confidence": "high",
-        "lines": [
-          18,
-          21
-        ]
-      },
-      {
-        "surface": "Count de Rochambeau",
-        "canonical_name": "Jean-Baptiste Donatien de Vimeur, comte de Rochambeau",
-        "type": "person",
-        "description": "The commander of the French expeditionary force sent to aid the American revolutionaries.",
-        "confidence": "high",
-        "lines": [
-          20
-        ]
-      },
-      {
         "surface": "French Army",
-        "canonical_name": "French Expeditionary Force",
+        "canonical_name": "Expédition Particulière",
         "type": "organization",
-        "description": "The military forces sent by King Louis XVI to support the American Continental Army.",
+        "description": "The French expeditionary force sent to North America under the command of the Comte de Rochambeau.",
         "confidence": "high",
         "lines": [
           17,
@@ -333,22 +300,53 @@
         ]
       },
       {
+        "surface": "Rhode Island",
+        "canonical_name": "Rhode Island",
+        "type": "place",
+        "description": "The state where French troops under Rochambeau were encamped around Newport during the second half of 1780.",
+        "confidence": "high",
+        "lines": [
+          18,
+          21
+        ]
+      },
+      {
+        "surface": "Southern Campaign",
+        "canonical_name": "Southern theater of the American Revolutionary War",
+        "type": "event",
+        "description": "The theater of military operations in Virginia and the Carolinas during the latter half of the Revolutionary War.",
+        "confidence": "high",
+        "lines": [
+          19
+        ]
+      },
+      {
+        "surface": "Count de Rochambeau",
+        "canonical_name": "Jean-Baptiste Donatien de Vimeur, comte de Rochambeau",
+        "type": "person",
+        "description": "Commander-in-chief of the French expeditionary forces sent to support the Continental Army in North America.",
+        "confidence": "high",
+        "lines": [
+          20
+        ]
+      },
+      {
         "surface": "G Washington",
         "canonical_name": "George Washington",
         "type": "person",
-        "description": "Commander-in-Chief of the Continental Army during the American Revolutionary War.",
+        "description": "Commander-in-chief of the Continental Army and later the first president of the United States.",
         "confidence": "high",
         "lines": [
           27
         ]
       }
     ],
-    "context": "Written in late December 1780 from New Windsor, George Washington introduces the Marquis de Lafayette and several other French officers to an unnamed recipient. At this stage in the American Revolutionary War, the alliance with France was crucial, and French forces under Rochambeau were stationed in Rhode Island, coordinating potential movements with Washington's army.",
-    "why_it_matters": "This letter highlights the international diplomacy and personal relationships that sustained the Franco-American alliance, which was indispensable to achieving American independence.",
+    "context": "Written in late December 1780 from Washington's headquarters in New Windsor, New York, this letter served to introduce the Marquis de Lafayette and visiting French officers to an associate, likely in anticipation of travel south. Following the British capture of Charleston in May 1780 and the subsequent shifts in the war, the Southern theater became the primary focus of active campaigning. Lafayette, along with officers such as the Vicomte de Noailles and the Comte de Damas from Rochambeau's forces stationed at Newport, Rhode Island, sought active combat roles in the South, where Lafayette was soon deployed to counter British operations in Virginia.",
+    "why_it_matters": "Letters of introduction like this highlight the critical interpersonal diplomacy that sustained the Franco-American alliance and helped secure foreign military support vital to American independence.",
     "discussion_questions": [
-      "How does Washington leverage both Lafayette's personal status and his military contributions to encourage the recipient to welcome him?",
-      "What does the mention of the Count de Noailles and Count de Damas seeking a southern campaign reveal about the mobility and coordination of French forces in America?",
-      "Why would letters of introduction like this one be vital for military leaders and diplomats during the 18th century?"
+      "How does Washington balance praising Lafayette's personal social rank with emphasizing his devotion to the American cause?",
+      "Why was personal networking and epistolary introduction so vital for military cooperation during the Revolutionary War?",
+      "What role did aristocratic European volunteers play in shaping the Continental Army's operations and international standing?"
     ]
   },
   "runInfo": {
@@ -359,7 +357,7 @@
         "settings": {
           "maxLongSide": 3000
         },
-        "latencyMs": 25,
+        "latencyMs": 26,
         "attempts": 1
       },
       "transcribe": {
@@ -370,13 +368,13 @@
           "mediaResolution": "high",
           "fallbackFrom": "gemini-3.8-flash"
         },
-        "latencyMs": 9512,
+        "latencyMs": 8986,
         "attempts": 1,
         "usage": {
           "promptTokens": 1408,
-          "outputTokens": 979,
-          "thoughtsTokens": 2314,
-          "totalTokens": 4701
+          "outputTokens": 667,
+          "thoughtsTokens": 2368,
+          "totalTokens": 4443
         }
       },
       "modernize": {
@@ -387,32 +385,1661 @@
           "mediaResolution": null,
           "fallbackFrom": "gemini-3.8-flash"
         },
-        "latencyMs": 3313,
+        "latencyMs": 3041,
         "attempts": 1,
         "usage": {
-          "promptTokens": 630,
-          "outputTokens": 1086,
-          "totalTokens": 1716
+          "promptTokens": 627,
+          "outputTokens": 1002,
+          "totalTokens": 1629
         }
       },
       "annotate": {
-        "model": "gemini-3.5-flash-lite",
+        "model": "gemini-3.8-flash",
         "promptVersion": "v1",
         "settings": {
           "thinking": "medium",
-          "mediaResolution": null,
-          "fallbackFrom": "gemini-3.8-flash"
+          "mediaResolution": null
         },
-        "latencyMs": 4080,
+        "latencyMs": 22909,
         "attempts": 1,
         "usage": {
-          "promptTokens": 613,
-          "outputTokens": 1292,
-          "totalTokens": 1905
+          "promptTokens": 610,
+          "outputTokens": 1510,
+          "thoughtsTokens": 1388,
+          "totalTokens": 3508
         }
       }
     },
     "errors": {},
-    "totalMs": 22227
+    "totalMs": 53687
+  },
+  "audio": {
+    "modern": {
+      "textSha256": "0b51fa94bda9306f5e5bff6650483910e4860b643664da950c41b3da48439eec",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "modelId": "eleven_multilingual_v2",
+      "files": [
+        "0b51fa94bda9306f5e5bff6650483910e4860b643664da950c41b3da48439eec-0.mp3"
+      ],
+      "durationSec": 70.775,
+      "words": [
+        {
+          "word": "New",
+          "start": 0,
+          "end": 0.255,
+          "charStart": 0,
+          "charEnd": 3,
+          "chunk": 0
+        },
+        {
+          "word": "Windsor.",
+          "start": 0.313,
+          "end": 0.836,
+          "charStart": 4,
+          "charEnd": 12,
+          "chunk": 0
+        },
+        {
+          "word": "Decr",
+          "start": 0.987,
+          "end": 1.428,
+          "charStart": 13,
+          "charEnd": 17,
+          "chunk": 0
+        },
+        {
+          "word": "28th",
+          "start": 1.602,
+          "end": 2.171,
+          "charStart": 18,
+          "charEnd": 22,
+          "chunk": 0
+        },
+        {
+          "word": "1780.",
+          "start": 2.287,
+          "end": 3.344,
+          "charStart": 23,
+          "charEnd": 28,
+          "chunk": 0
+        },
+        {
+          "word": "Dear",
+          "start": 3.553,
+          "end": 3.785,
+          "charStart": 29,
+          "charEnd": 33,
+          "chunk": 0
+        },
+        {
+          "word": "Sir,",
+          "start": 3.855,
+          "end": 4.307,
+          "charStart": 34,
+          "charEnd": 38,
+          "chunk": 0
+        },
+        {
+          "word": "I",
+          "start": 4.481,
+          "end": 4.528,
+          "charStart": 39,
+          "charEnd": 40,
+          "chunk": 0
+        },
+        {
+          "word": "have",
+          "start": 4.621,
+          "end": 4.748,
+          "charStart": 41,
+          "charEnd": 45,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 4.783,
+          "end": 4.853,
+          "charStart": 46,
+          "charEnd": 49,
+          "chunk": 0
+        },
+        {
+          "word": "pleasure",
+          "start": 4.899,
+          "end": 5.213,
+          "charStart": 50,
+          "charEnd": 58,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 5.248,
+          "end": 5.306,
+          "charStart": 59,
+          "charEnd": 61,
+          "chunk": 0
+        },
+        {
+          "word": "introducing",
+          "start": 5.364,
+          "end": 5.898,
+          "charStart": 62,
+          "charEnd": 73,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 5.944,
+          "end": 5.991,
+          "charStart": 74,
+          "charEnd": 76,
+          "chunk": 0
+        },
+        {
+          "word": "your",
+          "start": 6.037,
+          "end": 6.153,
+          "charStart": 77,
+          "charEnd": 81,
+          "chunk": 0
+        },
+        {
+          "word": "acquaintance",
+          "start": 6.2,
+          "end": 6.873,
+          "charStart": 82,
+          "charEnd": 94,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 6.989,
+          "end": 7.105,
+          "charStart": 95,
+          "charEnd": 98,
+          "chunk": 0
+        },
+        {
+          "word": "Marquis",
+          "start": 7.175,
+          "end": 7.581,
+          "charStart": 99,
+          "charEnd": 106,
+          "chunk": 0
+        },
+        {
+          "word": "de",
+          "start": 7.616,
+          "end": 7.674,
+          "charStart": 107,
+          "charEnd": 109,
+          "chunk": 0
+        },
+        {
+          "word": "la",
+          "start": 7.709,
+          "end": 7.779,
+          "charStart": 110,
+          "charEnd": 112,
+          "chunk": 0
+        },
+        {
+          "word": "Fayette",
+          "start": 7.848,
+          "end": 8.464,
+          "charStart": 113,
+          "charEnd": 120,
+          "chunk": 0
+        },
+        {
+          "word": "a",
+          "start": 8.615,
+          "end": 8.696,
+          "charStart": 121,
+          "charEnd": 122,
+          "chunk": 0
+        },
+        {
+          "word": "Major",
+          "start": 8.812,
+          "end": 9.125,
+          "charStart": 123,
+          "charEnd": 128,
+          "chunk": 0
+        },
+        {
+          "word": "General",
+          "start": 9.195,
+          "end": 9.59,
+          "charStart": 129,
+          "charEnd": 136,
+          "chunk": 0
+        },
+        {
+          "word": "and",
+          "start": 9.764,
+          "end": 9.973,
+          "charStart": 137,
+          "charEnd": 140,
+          "chunk": 0
+        },
+        {
+          "word": "as",
+          "start": 10.031,
+          "end": 10.124,
+          "charStart": 141,
+          "charEnd": 143,
+          "chunk": 0
+        },
+        {
+          "word": "an",
+          "start": 10.17,
+          "end": 10.228,
+          "charStart": 144,
+          "charEnd": 146,
+          "chunk": 0
+        },
+        {
+          "word": "officer",
+          "start": 10.263,
+          "end": 10.6,
+          "charStart": 147,
+          "charEnd": 154,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 10.658,
+          "end": 10.716,
+          "charStart": 155,
+          "charEnd": 157,
+          "chunk": 0
+        },
+        {
+          "word": "rank",
+          "start": 10.797,
+          "end": 11.041,
+          "charStart": 158,
+          "charEnd": 162,
+          "chunk": 0
+        },
+        {
+          "word": "in",
+          "start": 11.111,
+          "end": 11.169,
+          "charStart": 163,
+          "charEnd": 165,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 11.204,
+          "end": 11.273,
+          "charStart": 166,
+          "charEnd": 169,
+          "chunk": 0
+        },
+        {
+          "word": "service",
+          "start": 11.32,
+          "end": 11.68,
+          "charStart": 170,
+          "charEnd": 177,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 11.714,
+          "end": 11.773,
+          "charStart": 178,
+          "charEnd": 180,
+          "chunk": 0
+        },
+        {
+          "word": "France,",
+          "start": 11.842,
+          "end": 12.423,
+          "charStart": 181,
+          "charEnd": 188,
+          "chunk": 0
+        },
+        {
+          "word": "in",
+          "start": 12.574,
+          "end": 12.69,
+          "charStart": 189,
+          "charEnd": 191,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 12.736,
+          "end": 12.806,
+          "charStart": 192,
+          "charEnd": 195,
+          "chunk": 0
+        },
+        {
+          "word": "American",
+          "start": 12.864,
+          "end": 13.27,
+          "charStart": 196,
+          "charEnd": 204,
+          "chunk": 0
+        },
+        {
+          "word": "Army,",
+          "start": 13.34,
+          "end": 13.886,
+          "charStart": 205,
+          "charEnd": 210,
+          "chunk": 0
+        },
+        {
+          "word": "-",
+          "start": 13.955,
+          "end": 13.99,
+          "charStart": 211,
+          "charEnd": 212,
+          "chunk": 0
+        },
+        {
+          "word": "His",
+          "start": 14.025,
+          "end": 14.211,
+          "charStart": 213,
+          "charEnd": 216,
+          "chunk": 0
+        },
+        {
+          "word": "General",
+          "start": 14.28,
+          "end": 14.629,
+          "charStart": 217,
+          "charEnd": 224,
+          "chunk": 0
+        },
+        {
+          "word": "family,",
+          "start": 14.699,
+          "end": 15.268,
+          "charStart": 225,
+          "charEnd": 232,
+          "chunk": 0
+        },
+        {
+          "word": "fortune",
+          "start": 15.418,
+          "end": 15.883,
+          "charStart": 233,
+          "charEnd": 240,
+          "chunk": 0
+        },
+        {
+          "word": "&",
+          "start": 15.929,
+          "end": 15.987,
+          "charStart": 241,
+          "charEnd": 242,
+          "chunk": 0
+        },
+        {
+          "word": "illustrious",
+          "start": 16.069,
+          "end": 16.603,
+          "charStart": 243,
+          "charEnd": 254,
+          "chunk": 0
+        },
+        {
+          "word": "connexion",
+          "start": 16.661,
+          "end": 17.114,
+          "charStart": 255,
+          "charEnd": 264,
+          "chunk": 0
+        },
+        {
+          "word": "in",
+          "start": 17.16,
+          "end": 17.23,
+          "charStart": 265,
+          "charEnd": 267,
+          "chunk": 0
+        },
+        {
+          "word": "France",
+          "start": 17.311,
+          "end": 17.787,
+          "charStart": 268,
+          "charEnd": 274,
+          "chunk": 0
+        },
+        {
+          "word": "are",
+          "start": 17.903,
+          "end": 18.089,
+          "charStart": 275,
+          "charEnd": 278,
+          "chunk": 0
+        },
+        {
+          "word": "alone",
+          "start": 18.124,
+          "end": 18.414,
+          "charStart": 279,
+          "charEnd": 284,
+          "chunk": 0
+        },
+        {
+          "word": "sufficient",
+          "start": 18.46,
+          "end": 18.913,
+          "charStart": 285,
+          "charEnd": 295,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 18.948,
+          "end": 18.994,
+          "charStart": 296,
+          "charEnd": 298,
+          "chunk": 0
+        },
+        {
+          "word": "entitle",
+          "start": 19.076,
+          "end": 19.54,
+          "charStart": 299,
+          "charEnd": 306,
+          "chunk": 0
+        },
+        {
+          "word": "him",
+          "start": 19.575,
+          "end": 19.703,
+          "charStart": 307,
+          "charEnd": 310,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 19.772,
+          "end": 19.853,
+          "charStart": 311,
+          "charEnd": 313,
+          "chunk": 0
+        },
+        {
+          "word": "our",
+          "start": 19.935,
+          "end": 20.062,
+          "charStart": 314,
+          "charEnd": 317,
+          "chunk": 0
+        },
+        {
+          "word": "highest",
+          "start": 20.132,
+          "end": 20.457,
+          "charStart": 318,
+          "charEnd": 325,
+          "chunk": 0
+        },
+        {
+          "word": "respect,",
+          "start": 20.527,
+          "end": 21.223,
+          "charStart": 326,
+          "charEnd": 334,
+          "chunk": 0
+        },
+        {
+          "word": "but",
+          "start": 21.607,
+          "end": 21.758,
+          "charStart": 335,
+          "charEnd": 338,
+          "chunk": 0
+        },
+        {
+          "word": "when",
+          "start": 21.781,
+          "end": 21.932,
+          "charStart": 339,
+          "charEnd": 343,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 21.967,
+          "end": 22.036,
+          "charStart": 344,
+          "charEnd": 347,
+          "chunk": 0
+        },
+        {
+          "word": "obligation",
+          "start": 22.106,
+          "end": 22.686,
+          "charStart": 348,
+          "charEnd": 358,
+          "chunk": 0
+        },
+        {
+          "word": "which",
+          "start": 22.744,
+          "end": 22.907,
+          "charStart": 359,
+          "charEnd": 364,
+          "chunk": 0
+        },
+        {
+          "word": "America",
+          "start": 22.953,
+          "end": 23.371,
+          "charStart": 365,
+          "charEnd": 372,
+          "chunk": 0
+        },
+        {
+          "word": "is",
+          "start": 23.429,
+          "end": 23.522,
+          "charStart": 373,
+          "charEnd": 375,
+          "chunk": 0
+        },
+        {
+          "word": "under",
+          "start": 23.604,
+          "end": 23.859,
+          "charStart": 376,
+          "charEnd": 381,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 23.905,
+          "end": 23.963,
+          "charStart": 382,
+          "charEnd": 384,
+          "chunk": 0
+        },
+        {
+          "word": "him",
+          "start": 24.033,
+          "end": 24.184,
+          "charStart": 385,
+          "charEnd": 388,
+          "chunk": 0
+        },
+        {
+          "word": "aware",
+          "start": 24.265,
+          "end": 24.834,
+          "charStart": 389,
+          "charEnd": 394,
+          "chunk": 0
+        },
+        {
+          "word": "for",
+          "start": 24.95,
+          "end": 25.101,
+          "charStart": 395,
+          "charEnd": 398,
+          "chunk": 0
+        },
+        {
+          "word": "his",
+          "start": 25.148,
+          "end": 25.252,
+          "charStart": 399,
+          "charEnd": 402,
+          "chunk": 0
+        },
+        {
+          "word": "early",
+          "start": 25.322,
+          "end": 25.6,
+          "charStart": 403,
+          "charEnd": 408,
+          "chunk": 0
+        },
+        {
+          "word": "attachment",
+          "start": 25.647,
+          "end": 26.134,
+          "charStart": 409,
+          "charEnd": 419,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 26.169,
+          "end": 26.227,
+          "charStart": 420,
+          "charEnd": 422,
+          "chunk": 0
+        },
+        {
+          "word": "her",
+          "start": 26.32,
+          "end": 26.425,
+          "charStart": 423,
+          "charEnd": 426,
+          "chunk": 0
+        },
+        {
+          "word": "rights,",
+          "start": 26.494,
+          "end": 26.994,
+          "charStart": 427,
+          "charEnd": 434,
+          "chunk": 0
+        },
+        {
+          "word": "-",
+          "start": 27.028,
+          "end": 27.052,
+          "charStart": 435,
+          "charEnd": 436,
+          "chunk": 0
+        },
+        {
+          "word": "his",
+          "start": 27.377,
+          "end": 27.516,
+          "charStart": 437,
+          "charEnd": 440,
+          "chunk": 0
+        },
+        {
+          "word": "great",
+          "start": 27.574,
+          "end": 27.818,
+          "charStart": 441,
+          "charEnd": 446,
+          "chunk": 0
+        },
+        {
+          "word": "zeal",
+          "start": 27.888,
+          "end": 28.271,
+          "charStart": 447,
+          "charEnd": 451,
+          "chunk": 0
+        },
+        {
+          "word": "&",
+          "start": 28.398,
+          "end": 28.515,
+          "charStart": 452,
+          "charEnd": 453,
+          "chunk": 0
+        },
+        {
+          "word": "powerful",
+          "start": 28.596,
+          "end": 29.049,
+          "charStart": 454,
+          "charEnd": 462,
+          "chunk": 0
+        },
+        {
+          "word": "support",
+          "start": 29.107,
+          "end": 29.513,
+          "charStart": 463,
+          "charEnd": 470,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 29.56,
+          "end": 29.606,
+          "charStart": 471,
+          "charEnd": 473,
+          "chunk": 0
+        },
+        {
+          "word": "her",
+          "start": 29.676,
+          "end": 29.78,
+          "charStart": 474,
+          "charEnd": 477,
+          "chunk": 0
+        },
+        {
+          "word": "cause",
+          "start": 29.85,
+          "end": 30.361,
+          "charStart": 478,
+          "charEnd": 483,
+          "chunk": 0
+        },
+        {
+          "word": "are",
+          "start": 30.489,
+          "end": 30.767,
+          "charStart": 484,
+          "charEnd": 487,
+          "chunk": 0
+        },
+        {
+          "word": "known",
+          "start": 30.802,
+          "end": 31.069,
+          "charStart": 488,
+          "charEnd": 493,
+          "chunk": 0
+        },
+        {
+          "word": "I",
+          "start": 31.139,
+          "end": 31.185,
+          "charStart": 494,
+          "charEnd": 495,
+          "chunk": 0
+        },
+        {
+          "word": "am",
+          "start": 31.267,
+          "end": 31.348,
+          "charStart": 496,
+          "charEnd": 498,
+          "chunk": 0
+        },
+        {
+          "word": "persuaded",
+          "start": 31.406,
+          "end": 31.952,
+          "charStart": 499,
+          "charEnd": 508,
+          "chunk": 0
+        },
+        {
+          "word": "it",
+          "start": 32.102,
+          "end": 32.23,
+          "charStart": 509,
+          "charEnd": 511,
+          "chunk": 0
+        },
+        {
+          "word": "will",
+          "start": 32.265,
+          "end": 32.381,
+          "charStart": 512,
+          "charEnd": 516,
+          "chunk": 0
+        },
+        {
+          "word": "give",
+          "start": 32.428,
+          "end": 32.555,
+          "charStart": 517,
+          "charEnd": 521,
+          "chunk": 0
+        },
+        {
+          "word": "you",
+          "start": 32.59,
+          "end": 32.66,
+          "charStart": 522,
+          "charEnd": 525,
+          "chunk": 0
+        },
+        {
+          "word": "pleasure",
+          "start": 32.729,
+          "end": 33.078,
+          "charStart": 526,
+          "charEnd": 534,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 33.113,
+          "end": 33.182,
+          "charStart": 535,
+          "charEnd": 537,
+          "chunk": 0
+        },
+        {
+          "word": "shew",
+          "start": 33.263,
+          "end": 33.496,
+          "charStart": 538,
+          "charEnd": 542,
+          "chunk": 0
+        },
+        {
+          "word": "him",
+          "start": 33.565,
+          "end": 33.693,
+          "charStart": 543,
+          "charEnd": 546,
+          "chunk": 0
+        },
+        {
+          "word": "every",
+          "start": 33.809,
+          "end": 34.123,
+          "charStart": 547,
+          "charEnd": 552,
+          "chunk": 0
+        },
+        {
+          "word": "civility",
+          "start": 34.181,
+          "end": 34.75,
+          "charStart": 553,
+          "charEnd": 561,
+          "chunk": 0
+        },
+        {
+          "word": "in",
+          "start": 34.808,
+          "end": 34.9,
+          "charStart": 562,
+          "charEnd": 564,
+          "chunk": 0
+        },
+        {
+          "word": "your",
+          "start": 34.959,
+          "end": 35.109,
+          "charStart": 565,
+          "charEnd": 569,
+          "chunk": 0
+        },
+        {
+          "word": "power.",
+          "start": 35.168,
+          "end": 35.713,
+          "charStart": 570,
+          "charEnd": 576,
+          "chunk": 0
+        },
+        {
+          "word": "It",
+          "start": 36.317,
+          "end": 36.445,
+          "charStart": 577,
+          "charEnd": 579,
+          "chunk": 0
+        },
+        {
+          "word": "is",
+          "start": 36.491,
+          "end": 36.561,
+          "charStart": 580,
+          "charEnd": 582,
+          "chunk": 0
+        },
+        {
+          "word": "probable",
+          "start": 36.63,
+          "end": 37.048,
+          "charStart": 583,
+          "charEnd": 591,
+          "chunk": 0
+        },
+        {
+          "word": "that",
+          "start": 37.083,
+          "end": 37.199,
+          "charStart": 592,
+          "charEnd": 596,
+          "chunk": 0
+        },
+        {
+          "word": "he",
+          "start": 37.257,
+          "end": 37.327,
+          "charStart": 597,
+          "charEnd": 599,
+          "chunk": 0
+        },
+        {
+          "word": "may",
+          "start": 37.385,
+          "end": 37.501,
+          "charStart": 600,
+          "charEnd": 603,
+          "chunk": 0
+        },
+        {
+          "word": "be",
+          "start": 37.548,
+          "end": 37.64,
+          "charStart": 604,
+          "charEnd": 606,
+          "chunk": 0
+        },
+        {
+          "word": "accompanied",
+          "start": 37.675,
+          "end": 38.209,
+          "charStart": 607,
+          "charEnd": 618,
+          "chunk": 0
+        },
+        {
+          "word": "by",
+          "start": 38.256,
+          "end": 38.395,
+          "charStart": 619,
+          "charEnd": 621,
+          "chunk": 0
+        },
+        {
+          "word": "his",
+          "start": 38.453,
+          "end": 38.558,
+          "charStart": 622,
+          "charEnd": 625,
+          "chunk": 0
+        },
+        {
+          "word": "Brother",
+          "start": 38.616,
+          "end": 38.918,
+          "charStart": 626,
+          "charEnd": 633,
+          "chunk": 0
+        },
+        {
+          "word": "in",
+          "start": 38.964,
+          "end": 39.034,
+          "charStart": 634,
+          "charEnd": 636,
+          "chunk": 0
+        },
+        {
+          "word": "law",
+          "start": 39.103,
+          "end": 39.359,
+          "charStart": 637,
+          "charEnd": 640,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 39.603,
+          "end": 39.719,
+          "charStart": 641,
+          "charEnd": 644,
+          "chunk": 0
+        },
+        {
+          "word": "Count",
+          "start": 39.777,
+          "end": 40.055,
+          "charStart": 645,
+          "charEnd": 650,
+          "chunk": 0
+        },
+        {
+          "word": "de",
+          "start": 40.137,
+          "end": 40.241,
+          "charStart": 651,
+          "charEnd": 653,
+          "chunk": 0
+        },
+        {
+          "word": "Noailles,",
+          "start": 40.311,
+          "end": 41.065,
+          "charStart": 654,
+          "charEnd": 663,
+          "chunk": 0
+        },
+        {
+          "word": "&",
+          "start": 41.39,
+          "end": 41.507,
+          "charStart": 664,
+          "charEnd": 665,
+          "chunk": 0
+        },
+        {
+          "word": "Count",
+          "start": 41.623,
+          "end": 41.959,
+          "charStart": 666,
+          "charEnd": 671,
+          "chunk": 0
+        },
+        {
+          "word": "de",
+          "start": 42.075,
+          "end": 42.192,
+          "charStart": 672,
+          "charEnd": 674,
+          "chunk": 0
+        },
+        {
+          "word": "Damas,",
+          "start": 42.25,
+          "end": 43.027,
+          "charStart": 675,
+          "charEnd": 681,
+          "chunk": 0
+        },
+        {
+          "word": "two",
+          "start": 43.41,
+          "end": 43.642,
+          "charStart": 682,
+          "charEnd": 685,
+          "chunk": 0
+        },
+        {
+          "word": "gentlemen",
+          "start": 43.735,
+          "end": 44.223,
+          "charStart": 686,
+          "charEnd": 695,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 44.258,
+          "end": 44.316,
+          "charStart": 696,
+          "charEnd": 698,
+          "chunk": 0
+        },
+        {
+          "word": "family,",
+          "start": 44.386,
+          "end": 44.978,
+          "charStart": 699,
+          "charEnd": 706,
+          "chunk": 0
+        },
+        {
+          "word": "fortune",
+          "start": 45.094,
+          "end": 45.639,
+          "charStart": 707,
+          "charEnd": 714,
+          "chunk": 0
+        },
+        {
+          "word": "&",
+          "start": 45.686,
+          "end": 45.744,
+          "charStart": 715,
+          "charEnd": 716,
+          "chunk": 0
+        },
+        {
+          "word": "rank",
+          "start": 45.86,
+          "end": 46.173,
+          "charStart": 717,
+          "charEnd": 721,
+          "chunk": 0
+        },
+        {
+          "word": "in",
+          "start": 46.29,
+          "end": 46.406,
+          "charStart": 722,
+          "charEnd": 724,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 46.452,
+          "end": 46.522,
+          "charStart": 725,
+          "charEnd": 728,
+          "chunk": 0
+        },
+        {
+          "word": "French",
+          "start": 46.58,
+          "end": 46.858,
+          "charStart": 729,
+          "charEnd": 735,
+          "chunk": 0
+        },
+        {
+          "word": "Army",
+          "start": 46.928,
+          "end": 47.218,
+          "charStart": 736,
+          "charEnd": 740,
+          "chunk": 0
+        },
+        {
+          "word": "at",
+          "start": 47.265,
+          "end": 47.334,
+          "charStart": 741,
+          "charEnd": 743,
+          "chunk": 0
+        },
+        {
+          "word": "Rhode",
+          "start": 47.404,
+          "end": 47.636,
+          "charStart": 744,
+          "charEnd": 749,
+          "chunk": 0
+        },
+        {
+          "word": "Island.",
+          "start": 47.683,
+          "end": 48.205,
+          "charStart": 750,
+          "charEnd": 757,
+          "chunk": 0
+        },
+        {
+          "word": "whose",
+          "start": 48.716,
+          "end": 48.96,
+          "charStart": 758,
+          "charEnd": 763,
+          "chunk": 0
+        },
+        {
+          "word": "zeal",
+          "start": 48.995,
+          "end": 49.32,
+          "charStart": 764,
+          "charEnd": 768,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 49.389,
+          "end": 49.459,
+          "charStart": 769,
+          "charEnd": 771,
+          "chunk": 0
+        },
+        {
+          "word": "serve",
+          "start": 49.54,
+          "end": 49.854,
+          "charStart": 772,
+          "charEnd": 777,
+          "chunk": 0
+        },
+        {
+          "word": "America",
+          "start": 49.889,
+          "end": 50.423,
+          "charStart": 778,
+          "charEnd": 785,
+          "chunk": 0
+        },
+        {
+          "word": "lead",
+          "start": 50.701,
+          "end": 50.945,
+          "charStart": 786,
+          "charEnd": 790,
+          "chunk": 0
+        },
+        {
+          "word": "them",
+          "start": 50.992,
+          "end": 51.119,
+          "charStart": 791,
+          "charEnd": 795,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 51.166,
+          "end": 51.235,
+          "charStart": 796,
+          "charEnd": 798,
+          "chunk": 0
+        },
+        {
+          "word": "make",
+          "start": 51.305,
+          "end": 51.502,
+          "charStart": 799,
+          "charEnd": 803,
+          "chunk": 0
+        },
+        {
+          "word": "a",
+          "start": 51.537,
+          "end": 51.572,
+          "charStart": 804,
+          "charEnd": 805,
+          "chunk": 0
+        },
+        {
+          "word": "Southern",
+          "start": 51.642,
+          "end": 51.967,
+          "charStart": 806,
+          "charEnd": 814,
+          "chunk": 0
+        },
+        {
+          "word": "Campaign",
+          "start": 52.025,
+          "end": 52.571,
+          "charStart": 815,
+          "charEnd": 823,
+          "chunk": 0
+        },
+        {
+          "word": "this",
+          "start": 52.617,
+          "end": 52.756,
+          "charStart": 824,
+          "charEnd": 828,
+          "chunk": 0
+        },
+        {
+          "word": "winter,",
+          "start": 52.814,
+          "end": 53.36,
+          "charStart": 829,
+          "charEnd": 836,
+          "chunk": 0
+        },
+        {
+          "word": "if",
+          "start": 53.569,
+          "end": 53.72,
+          "charStart": 837,
+          "charEnd": 839,
+          "chunk": 0
+        },
+        {
+          "word": "they",
+          "start": 53.766,
+          "end": 53.894,
+          "charStart": 840,
+          "charEnd": 844,
+          "chunk": 0
+        },
+        {
+          "word": "can",
+          "start": 53.941,
+          "end": 54.057,
+          "charStart": 845,
+          "charEnd": 848,
+          "chunk": 0
+        },
+        {
+          "word": "obtain",
+          "start": 54.103,
+          "end": 54.451,
+          "charStart": 849,
+          "charEnd": 855,
+          "chunk": 0
+        },
+        {
+          "word": "permission",
+          "start": 54.533,
+          "end": 54.997,
+          "charStart": 856,
+          "charEnd": 866,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 55.113,
+          "end": 55.229,
+          "charStart": 867,
+          "charEnd": 869,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 55.276,
+          "end": 55.345,
+          "charStart": 870,
+          "charEnd": 873,
+          "chunk": 0
+        },
+        {
+          "word": "Count",
+          "start": 55.415,
+          "end": 55.659,
+          "charStart": 874,
+          "charEnd": 879,
+          "chunk": 0
+        },
+        {
+          "word": "de",
+          "start": 55.717,
+          "end": 55.787,
+          "charStart": 880,
+          "charEnd": 882,
+          "chunk": 0
+        },
+        {
+          "word": "Rochambeau",
+          "start": 55.856,
+          "end": 56.564,
+          "charStart": 883,
+          "charEnd": 893,
+          "chunk": 0
+        },
+        {
+          "word": "Commanding",
+          "start": 56.947,
+          "end": 57.493,
+          "charStart": 894,
+          "charEnd": 904,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 57.54,
+          "end": 57.609,
+          "charStart": 905,
+          "charEnd": 908,
+          "chunk": 0
+        },
+        {
+          "word": "French",
+          "start": 57.656,
+          "end": 57.946,
+          "charStart": 909,
+          "charEnd": 915,
+          "chunk": 0
+        },
+        {
+          "word": "Army",
+          "start": 58.027,
+          "end": 58.341,
+          "charStart": 916,
+          "charEnd": 920,
+          "chunk": 0
+        },
+        {
+          "word": "at",
+          "start": 58.399,
+          "end": 58.468,
+          "charStart": 921,
+          "charEnd": 923,
+          "chunk": 0
+        },
+        {
+          "word": "Rhode",
+          "start": 58.538,
+          "end": 58.782,
+          "charStart": 924,
+          "charEnd": 929,
+          "chunk": 0
+        },
+        {
+          "word": "Island",
+          "start": 58.828,
+          "end": 59.188,
+          "charStart": 930,
+          "charEnd": 936,
+          "chunk": 0
+        },
+        {
+          "word": "-",
+          "start": 59.362,
+          "end": 59.478,
+          "charStart": 937,
+          "charEnd": 938,
+          "chunk": 0
+        },
+        {
+          "word": "Should",
+          "start": 59.571,
+          "end": 59.85,
+          "charStart": 939,
+          "charEnd": 945,
+          "chunk": 0
+        },
+        {
+          "word": "this",
+          "start": 59.885,
+          "end": 60.024,
+          "charStart": 946,
+          "charEnd": 950,
+          "chunk": 0
+        },
+        {
+          "word": "event",
+          "start": 60.082,
+          "end": 60.372,
+          "charStart": 951,
+          "charEnd": 956,
+          "chunk": 0
+        },
+        {
+          "word": "take",
+          "start": 60.43,
+          "end": 60.651,
+          "charStart": 957,
+          "charEnd": 961,
+          "chunk": 0
+        },
+        {
+          "word": "place",
+          "start": 60.686,
+          "end": 61.139,
+          "charStart": 962,
+          "charEnd": 967,
+          "chunk": 0
+        },
+        {
+          "word": "I",
+          "start": 61.29,
+          "end": 61.359,
+          "charStart": 968,
+          "charEnd": 969,
+          "chunk": 0
+        },
+        {
+          "word": "beg",
+          "start": 61.475,
+          "end": 61.673,
+          "charStart": 970,
+          "charEnd": 973,
+          "chunk": 0
+        },
+        {
+          "word": "leave",
+          "start": 61.754,
+          "end": 62.009,
+          "charStart": 974,
+          "charEnd": 979,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 62.044,
+          "end": 62.102,
+          "charStart": 980,
+          "charEnd": 982,
+          "chunk": 0
+        },
+        {
+          "word": "recommend",
+          "start": 62.184,
+          "end": 62.59,
+          "charStart": 983,
+          "charEnd": 992,
+          "chunk": 0
+        },
+        {
+          "word": "them",
+          "start": 62.636,
+          "end": 62.764,
+          "charStart": 993,
+          "charEnd": 997,
+          "chunk": 0
+        },
+        {
+          "word": "also",
+          "start": 62.834,
+          "end": 63.24,
+          "charStart": 998,
+          "charEnd": 1002,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 63.31,
+          "end": 63.368,
+          "charStart": 1003,
+          "charEnd": 1005,
+          "chunk": 0
+        },
+        {
+          "word": "your",
+          "start": 63.437,
+          "end": 63.588,
+          "charStart": 1006,
+          "charEnd": 1010,
+          "chunk": 0
+        },
+        {
+          "word": "attention.",
+          "start": 63.635,
+          "end": 64.32,
+          "charStart": 1011,
+          "charEnd": 1021,
+          "chunk": 0
+        },
+        {
+          "word": "With",
+          "start": 64.831,
+          "end": 65.016,
+          "charStart": 1022,
+          "charEnd": 1026,
+          "chunk": 0
+        },
+        {
+          "word": "much",
+          "start": 65.074,
+          "end": 65.272,
+          "charStart": 1027,
+          "charEnd": 1031,
+          "chunk": 0
+        },
+        {
+          "word": "esteem",
+          "start": 65.33,
+          "end": 65.725,
+          "charStart": 1032,
+          "charEnd": 1038,
+          "chunk": 0
+        },
+        {
+          "word": "&",
+          "start": 65.806,
+          "end": 65.864,
+          "charStart": 1039,
+          "charEnd": 1040,
+          "chunk": 0
+        },
+        {
+          "word": "regard",
+          "start": 65.945,
+          "end": 66.456,
+          "charStart": 1041,
+          "charEnd": 1047,
+          "chunk": 0
+        },
+        {
+          "word": "I",
+          "start": 66.7,
+          "end": 66.793,
+          "charStart": 1048,
+          "charEnd": 1049,
+          "chunk": 0
+        },
+        {
+          "word": "am",
+          "start": 66.874,
+          "end": 66.978,
+          "charStart": 1050,
+          "charEnd": 1052,
+          "chunk": 0
+        },
+        {
+          "word": "Dear",
+          "start": 67.048,
+          "end": 67.257,
+          "charStart": 1053,
+          "charEnd": 1057,
+          "chunk": 0
+        },
+        {
+          "word": "Sir",
+          "start": 67.327,
+          "end": 67.605,
+          "charStart": 1058,
+          "charEnd": 1061,
+          "chunk": 0
+        },
+        {
+          "word": "Your",
+          "start": 67.698,
+          "end": 67.849,
+          "charStart": 1062,
+          "charEnd": 1066,
+          "chunk": 0
+        },
+        {
+          "word": "Most",
+          "start": 67.919,
+          "end": 68.105,
+          "charStart": 1067,
+          "charEnd": 1071,
+          "chunk": 0
+        },
+        {
+          "word": "obedient",
+          "start": 68.163,
+          "end": 68.615,
+          "charStart": 1072,
+          "charEnd": 1080,
+          "chunk": 0
+        },
+        {
+          "word": "Servant",
+          "start": 68.685,
+          "end": 69.15,
+          "charStart": 1081,
+          "charEnd": 1088,
+          "chunk": 0
+        },
+        {
+          "word": "G",
+          "start": 69.196,
+          "end": 69.8,
+          "charStart": 1089,
+          "charEnd": 1090,
+          "chunk": 0
+        },
+        {
+          "word": "Washington",
+          "start": 69.893,
+          "end": 70.775,
+          "charStart": 1091,
+          "charEnd": 1101,
+          "chunk": 0
+        }
+      ]
+    }
   }
 }

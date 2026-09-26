@@ -2,13 +2,17 @@ import { useState } from "react";
 import { Link, useParams } from "react-router";
 import { ImageViewer } from "../components/ImageViewer";
 import { ProgressSteps } from "../components/ProgressSteps";
-import { TranscriptTabs } from "../components/TranscriptTabs";
+import { AudioReader } from "../components/AudioReader";
+import { TranscriptTabs, type TabKey } from "../components/TranscriptTabs";
 import { useDocument } from "../hooks/useDocument";
 
 export function Reader() {
   const { id = "" } = useParams();
   const { doc, error, retry } = useDocument(id);
   const [retrying, setRetrying] = useState(false);
+  const [tab, setTab] = useState<TabKey>("written");
+  // Listen reads whichever English version is open; from other tabs it reads Modern English.
+  const narrationVariant = tab === "plain" ? "plain" : "modern";
 
   if (!doc) {
     return (
@@ -65,9 +69,11 @@ export function Reader() {
           <ImageViewer src={doc.imageUrl} alt="The uploaded letter" />
         </div>
         <div>
-          <TranscriptTabs doc={doc} onRetry={onRetry} />
+          <TranscriptTabs doc={doc} onRetry={onRetry} active={tab} setActive={setTab} />
         </div>
       </div>
+
+      {doc.modernization && <AudioReader docId={doc.id} variant={narrationVariant} onPlay={(v) => setTab(v)} />}
 
       <footer className="mt-10 border-t border-rule pt-4 text-xs text-ink-soft">
         {transcribe && <span>Transcribed by {transcribe.model}. </span>}

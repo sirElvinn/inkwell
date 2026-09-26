@@ -21,3 +21,12 @@
   body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
   :focus-visible { outline: 3px solid var(--color-sepia); outline-offset: 2px; }
 }
+
+/* Word being spoken by the narrator (AudioReader adds/removes this class). */
+[data-w].is-speaking {
+  background: color-mix(in srgb, var(--color-amber) 65%, transparent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--color-amber) 65%, transparent);
+}
+@media (prefers-reduced-motion: no-preference) {
+  [data-w] { transition: background-color 80ms linear; }
+}

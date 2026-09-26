@@ -1,7 +1,10 @@
-// Modern / Plain English text with the letter's people and places turned into tappable names.
-// Tapping a name opens its EntityCard right below the paragraph.
-import type { AnnotationResult } from "@inkwell/shared";
-import { Fragment, useMemo, useState, type ReactNode } from "react";
+// Modern / Plain English text with:
+//   - the letter's people and places as tappable names (tap → EntityCard below the paragraph)
+//   - every narrated word wrapped in <span data-w="k">, so the AudioReader can highlight word k
+//     while it is spoken. Word k is the k-th word of prepareNarration(text).text, the exact text
+//     the server sent to ElevenLabs, mapped back to where it appears on screen.
+import { narratedWords, prepareNarration, type AnnotationResult, type NarrationVariant } from "@inkwell/shared";
+import { Fragment, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { EntityCard } from "./EntityCard";
 
 type Entity = AnnotationResult["entities"][number];
@@ -50,38 +53,90 @@ export function findMentions(text: string, entities: Entity[]): Match[] {
   return chosen;
 }
 
-export function ReadableText({ text, entities, links }: { text: string; entities: Entity[]; links: { wikipedia: string | null }[] }) {
+/** Narrated word k → its [start, end) range in the displayed text. */
+function displayWordRanges(text: string): { start: number; end: number }[] {
+  const { text: narrated, displayIndex } = prepareNarration(text);
+  return narratedWords(narrated).map((w) => ({ start: displayIndex[w.start]!, end: displayIndex[w.end - 1]! + 1 }));
+}
+
+/** Render text[a, b) with each narrated word (or the part of it inside this range) wrapped in a data-w span. */
+function renderRange(text: string, a: number, b: number, words: { start: number; end: number }[], keyPrefix: string): ReactNode[] {
+  const out: ReactNode[] = [];
+  let pos = a;
+  for (let k = 0; k < words.length; k++) {
+    const w = words[k]!;
+    if (w.end <= a) continue;
+    if (w.start >= b) break;
+    const s = Math.max(w.start, a);
+    const e = Math.min(w.end, b);
+    if (s > pos) out.push(<Fragment key={`${keyPrefix}t${pos}`}>{text.slice(pos, s)}</Fragment>);
+    out.push(
+      <span key={`${keyPrefix}w${s}`} data-w={k} className="rounded-sm">
+        {text.slice(s, e)}
+      </span>,
+    );
+    pos = e;
+  }
+  if (pos < b) out.push(<Fragment key={`${keyPrefix}t${pos}`}>{text.slice(pos, b)}</Fragment>);
+  return out;
+}
+
+export function ReadableText({
+  text,
+  entities,
+  links,
+  variant,
+}: {
+  text: string;
+  entities: Entity[];
+  links: { wikipedia: string | null }[];
+  variant: NarrationVariant;
+}) {
   const [open, setOpen] = useState<{ para: number; entity: number } | null>(null);
-  const paragraphs = useMemo(() => text.split(/\n{2,}|\n/).filter((p) => p.trim()), [text]);
+  const cardRef = useRef<HTMLDivElement>(null);
+
+  // Paragraphs with their absolute offsets, so word ranges (computed on the whole text) line up.
+  const paragraphs = useMemo(() => [...text.matchAll(/[^\n]+/g)].filter((m) => m[0].trim()).map((m) => ({ start: m.index, end: m.index + m[0].length })), [text]);
+  const words = useMemo(() => displayWordRanges(text), [text]);
+
+  // Long paragraphs can push the card off-screen, so bring it into view when it opens.
+  useEffect(() => {
+    if (!open) return;
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    cardRef.current?.scrollIntoView({ block: "nearest", behavior: reduce ? "auto" : "smooth" });
+  }, [open]);
 
   return (
-    <div className="space-y-4 font-serif text-lg leading-relaxed">
+    <div className="space-y-4 font-serif text-lg leading-relaxed" data-narration={variant}>
       {paragraphs.map((para, pi) => {
+        const paraText = text.slice(para.start, para.end);
         const parts: ReactNode[] = [];
-        let pos = 0;
-        for (const m of findMentions(para, entities)) {
-          parts.push(<Fragment key={`t${m.start}`}>{para.slice(pos, m.start)}</Fragment>);
+        let pos = para.start;
+        for (const m of findMentions(paraText, entities)) {
+          const ms = para.start + m.start;
+          const me = para.start + m.end;
+          parts.push(...renderRange(text, pos, ms, words, `p${pi}-`));
           const isOpen = open?.para === pi && open.entity === m.entity;
           parts.push(
             <button
-              key={`e${m.start}`}
+              key={`e${ms}`}
               type="button"
               aria-expanded={isOpen}
               onClick={() => setOpen(isOpen ? null : { para: pi, entity: m.entity })}
               className="rounded-sm border-b-2 border-sepia/60 font-medium text-ink hover:bg-parchment-deep"
             >
-              {para.slice(m.start, m.end)}
+              {renderRange(text, ms, me, words, `e${ms}-`)}
             </button>,
           );
-          pos = m.end;
+          pos = me;
         }
-        parts.push(<Fragment key="end">{para.slice(pos)}</Fragment>);
+        parts.push(...renderRange(text, pos, para.end, words, `p${pi}-end-`));
         const openEntity = open?.para === pi ? entities[open.entity] : undefined;
         return (
           <div key={pi}>
             <p>{parts}</p>
             {openEntity && open && (
-              <div className="mt-3">
+              <div className="mt-3 scroll-mb-28" ref={cardRef}>
                 <EntityCard entity={openEntity} wikipedia={links[open.entity]?.wikipedia ?? null} />
               </div>
             )}

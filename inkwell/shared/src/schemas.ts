@@ -156,3 +156,32 @@ export const CreateDocumentResponse = z.object({
   cached: z.boolean().optional(),
 });
 export type CreateDocumentResponse = z.infer<typeof CreateDocumentResponse>;
+
+// ---------- narration ----------
+
+export const NarrationVariantSchema = z.enum(["modern", "plain"]);
+
+export const AudioRequest = z.object({ variant: NarrationVariantSchema });
+export type AudioRequest = z.infer<typeof AudioRequest>;
+
+/** One spoken word. Times are seconds from the start of its own chunk's audio file. */
+export const WordTiming = z.object({
+  word: z.string(),
+  start: z.number(),
+  end: z.number(),
+  /** Character offsets in the narrated text (see prepareNarration). */
+  charStart: z.number().int(),
+  charEnd: z.number().int(),
+  /** Which audio file (chunk) this word is in; long letters are split into chunks. */
+  chunk: z.number().int(),
+});
+export type WordTiming = z.infer<typeof WordTiming>;
+
+export const AudioResponse = z.object({
+  /** One URL per chunk, played in order as a playlist. */
+  audioUrls: z.array(z.string()).min(1),
+  words: z.array(WordTiming),
+  durationSec: z.number(),
+  voiceLabel: z.string(),
+});
+export type AudioResponse = z.infer<typeof AudioResponse>;

@@ -3,65 +3,65 @@
   "title": "Jefferson to Washington, from Williamsburg (1779)",
   "imageSha256": "c69c9a96126801c1575584cf949be8a69d101fdc5b010d9c4c2ee99a11c478c8",
   "pipelineVersion": "v1",
-  "frozenAt": "2026-09-26T19:12:38.386Z",
+  "frozenAt": "2026-09-26T21:24:19.200Z",
   "transcription": {
     "not_a_manuscript": false,
     "lines": [
       {
         "n": 1,
-        "text": "No. 3."
-      },
-      {
-        "n": 2,
-        "text": "Williamsburg July 20. 1779"
-      },
-      {
-        "n": 3,
         "text": "Sir,"
       },
       {
-        "n": 4,
+        "n": 2,
+        "text": "Williamsburg July 20th 1779"
+      },
+      {
+        "n": 3,
         "text": "I take the liberty of begging"
       },
       {
-        "n": 5,
+        "n": 4,
         "text": "leave of your Excellency to forward"
       },
       {
-        "n": 6,
+        "n": 5,
         "text": "the enclosed by the first flag which"
       },
       {
-        "n": 7,
+        "n": 6,
         "text": "may happen to be going into"
       },
       {
-        "n": 8,
-        "text": "- New york. They are addressed to"
+        "n": 7,
+        "text": "New york. They are addressed to a"
       },
       {
-        "n": 9,
+        "n": 8,
         "text": "good man in distress which I am"
       },
       {
-        "n": 10,
-        "text": "sure will apologize with you for"
+        "n": 9,
+        "text": "sure will apologise with you for"
       },
       {
-        "n": 11,
+        "n": 10,
         "text": "my asking your intervention"
       },
       {
-        "n": 12,
+        "n": 11,
         "text": "I am with the greatest respect"
       },
       {
+        "n": 12,
+        "text": "your Excellency's most obt."
+      },
+      {
         "n": 13,
-        "text": "your Excellency's most obdt"
+        "text": "& most. hble servt"
       },
       {
         "n": 14,
-        "text": "& most. hble servt"
+        "text": "His Excellency"
       },
       {
         "n": 15,
@@ -69,79 +69,55 @@
       },
       {
         "n": 16,
-        "text": "His Excellency"
+        "text": "Genl: Washington"
       },
       {
         "n": 17,
-        "text": "Genl Washington"
-      },
-      {
-        "n": 18,
         "text": "(Copy)"
       }
     ],
-    "uncertain": [],
-    "notes": "Contemporary clerical copy of a letter from Thomas Jefferson to George Washington. Includes an oval Library of Congress stamp overlapping the dateline and a modern stamped page number '555' at the bottom left.",
-    "script_description": "Neat 18th-century clerical cursive hand in dark brown ink."
+    "uncertain": [
+      {
+        "line": 13,
+        "reading": "& most. hble servt",
+        "alternatives": [
+          "& most hble servt",
+          "&c most hble servt"
+        ],
+        "reason": "punctuation is slightly ambiguous"
+      }
+    ],
+    "notes": "Archival stamp in top right, page number 555 in bottom left.",
+    "script_description": "fluent 18th-century cursive hand in dark ink"
   },
   "modernization": {
-    "modern_text": "Number 3.\nWilliamsburg, July 20, 1779\n\nSir,\n\nI take the liberty of begging leave of your Excellency to forward the enclosed by the first flag which may happen to be going into New York. They are addressed to [a] good man in distress, which I am sure will apologize with you for my asking your intervention.\n\nI am with the greatest respect, your Excellency's most obedient and most humble servant,\n\nThomas Jefferson\n\nHis Excellency General Washington\n(Copy)",
-    "plain_english": "Williamsburg, July 20, 1779\n\nSir,\n\nI am writing to ask your Excellency for permission to send the enclosed letters on the first ship or party carrying a flag of truce into New York. They are addressed to a good man who is suffering, and I am certain his difficult situation will excuse my asking for your help in delivering them.\n\nWith great respect, I remain your Excellency's most obedient and humble servant,\n\nThomas Jefferson\n\nTo His Excellency General Washington",
-    "summary": "Thomas Jefferson writes to General George Washington requesting that enclosed letters be forwarded to British-held New York under a flag of truce. Jefferson explains that the letters are meant for a suffering man, which he hopes will excuse his request for Washington's intervention. The letter concludes with standard 18th-century expressions of high respect.",
+    "modern_text": "Sir, Williamsburg July 20th 1779. I take the liberty of begging leave of your Excellency to forward the enclosed by the first flag which may happen to be going into New York. They are addressed to a good man in distress which I am sure will apologize with you for my asking your intervention. I am with the greatest respect your Excellency's most obedient [?] & most [?] humble servant [?]. His Excellency Th: Jefferson Genl: Washington (Copy)",
+    "plain_english": "Sir, writing from Williamsburg on July 20, 1779, I am asking your Excellency for permission to send the enclosed letters through the next flag of truce going into New York. They are meant for a good man who is in trouble, which I am confident will serve as an apology to you for my request for your help. I remain, with the utmost respect, your Excellency's most obedient and humble servant. His Excellency Thomas Jefferson, General Washington. (Copy)",
+    "summary": "The author writes to General Washington from Williamsburg on July 20, 1779, asking him to forward enclosed letters through a flag of truce to New York for a man in distress. The writer apologizes for the intrusion and expresses great respect.",
     "glossary": [
       {
-        "original": "No.",
-        "modern": "Number",
-        "category": "abbreviation",
-        "explanation": "Shortened form of the Latin word 'numero', meaning number."
-      },
-      {
-        "original": "flag",
-        "modern": "flag of truce",
-        "category": "archaic_word",
-        "explanation": "Used here as shorthand for a vessel, messenger, or party traveling under a flag of truce between opposing military lines."
-      },
-      {
-        "original": "apologize with",
-        "modern": "serve as an excuse to",
-        "category": "archaic_word",
-        "explanation": "An eighteenth-century idiom meaning to provide a justification or valid excuse to someone."
-      },
-      {
-        "original": "obdt",
+        "original": "obt.",
         "modern": "obedient",
         "category": "abbreviation",
-        "explanation": "Scribal abbreviation for 'obedient', standard in formal closings."
+        "explanation": "An 18th-century abbreviation for the word obedient, commonly used in formal letter closings."
       },
       {
         "original": "&",
         "modern": "and",
         "category": "symbol",
-        "explanation": "The ampersand symbol representing the conjunction 'and'."
+        "explanation": "The ampersand symbol used to mean the conjunction and."
       },
       {
         "original": "hble",
         "modern": "humble",
-        "category": "abbreviation",
-        "explanation": "Abbreviation for 'humble', commonly used in polite epistolary sign-offs."
+        "category": "spelling",
+        "explanation": "An abbreviation or contracted spelling of the word humble."
       },
       {
         "original": "servt",
         "modern": "servant",
         "category": "abbreviation",
-        "explanation": "Abbreviation for 'servant', used in deferential complimentary closes."
-      },
-      {
-        "original": "Th:Jefferson",
-        "modern": "Thomas Jefferson",
-        "category": "abbreviation",
-        "explanation": "Jefferson's standard contracted signature, abbreviating 'Thomas' using a colon."
-      },
-      {
-        "original": "Genl",
-        "modern": "General",
-        "category": "abbreviation",
-        "explanation": "Abbreviated military title for 'General'."
+        "explanation": "An abbreviation for the word servant, standard in formal letter sign-offs of the period."
       }
     ]
   },
@@ -150,22 +126,22 @@
       "author": {
         "value": "Thomas Jefferson",
         "confidence": "high",
-        "evidence": "Th:Jefferson (line 15)"
+        "evidence": "Th:Jefferson"
       },
       "recipient": {
         "value": "George Washington",
         "confidence": "high",
-        "evidence": "His Excellency Genl Washington (lines 16-17)"
+        "evidence": "Genl: Washington"
       },
       "date": {
         "value": "July 20, 1779",
         "confidence": "high",
-        "evidence": "Williamsburg July 20. 1779 (line 2)"
+        "evidence": "Williamsburg July 20th 1779"
       },
       "place": {
-        "value": "Williamsburg",
+        "value": "Williamsburg, Virginia",
         "confidence": "high",
-        "evidence": "Williamsburg July 20. 1779 (line 2)"
+        "evidence": "Williamsburg July 20th 1779"
       }
     },
     "entities": [
@@ -173,7 +149,7 @@
         "surface": "Williamsburg",
         "canonical_name": "Williamsburg, Virginia",
         "type": "place",
-        "description": "An historic city in Virginia that served as the colonial and early state capital.",
+        "description": "The colonial capital of Virginia and the location from which Jefferson wrote the letter.",
         "confidence": "high",
         "lines": [
           2
@@ -181,41 +157,41 @@
       },
       {
         "surface": "New york",
-        "canonical_name": "New York City",
+        "canonical_name": "New York, New York",
         "type": "place",
-        "description": "A major port city occupied by British forces during much of the American Revolutionary War.",
+        "description": "A major American city occupied by British forces during much of the Revolutionary War.",
         "confidence": "high",
         "lines": [
-          8
+          7
         ]
       },
       {
         "surface": "Th:Jefferson",
         "canonical_name": "Thomas Jefferson",
         "type": "person",
-        "description": "Author of the letter, serving as Governor of Virginia in 1779 and later the third U.S. President.",
+        "description": "Governor of Virginia at the time of writing and future third President of the United States.",
         "confidence": "high",
         "lines": [
           15
         ]
       },
       {
-        "surface": "Genl Washington",
+        "surface": "Genl: Washington",
         "canonical_name": "George Washington",
         "type": "person",
-        "description": "Commander-in-Chief of the Continental Army during the American Revolutionary War.",
+        "description": "Commander-in-Chief of the Continental Army and future first President of the United States.",
         "confidence": "high",
         "lines": [
-          17
+          16
         ]
       }
     ],
-    "context": "In July 1779, Thomas Jefferson was serving as the Governor of Virginia. In this capacity, he wrote to General George Washington, commander of the Continental Army, asking for assistance in forwarding a private letter through enemy lines to New York via a flag of truce.",
-    "why_it_matters": "This letter highlights the intersection of personal humanitarian concerns and military protocols during the Revolutionary War, while showcasing the professional relationship between two of America's foremost Founding Fathers.",
+    "context": "Written in July 1779, Thomas Jefferson recently assumed office as Governor of Virginia. In this letter, he requests that General George Washington help facilitate sending enclosed correspondence through enemy lines via a flag of truce to British-occupied New York.",
+    "why_it_matters": "This letter highlights the complex logistical and human challenges of the American Revolutionary War, showing how civilian leaders had to navigate military protocols and enemy lines even for personal matters.",
     "discussion_questions": [
-      "How does this letter reveal the personal impacts and human connections disrupted by the Revolutionary War?",
-      "Why was military intervention such as a flag of truce required to send a simple letter to New York at this time?",
-      "What does the deferential tone of this letter tell us about the relationship between Jefferson and Washington in 1779?"
+      "Why was General Washington's military intervention required to send a simple letter to New York in 1779?",
+      "What does the mention of a 'flag of truce' tell us about how opposing sides communicated during the Revolutionary War?",
+      "How does this brief, courteous note reflect the professional relationship between Jefferson and Washington during the founding era?"
     ]
   },
   "runInfo": {
@@ -226,38 +202,39 @@
         "settings": {
           "maxLongSide": 3000
         },
-        "latencyMs": 16,
+        "latencyMs": 17,
         "attempts": 1
       },
       "transcribe": {
-        "model": "gemini-3.8-flash",
+        "model": "gemini-3.5-flash-lite",
         "promptVersion": "v1",
         "settings": {
           "thinking": "medium",
-          "mediaResolution": "high"
+          "mediaResolution": "high",
+          "fallbackFrom": "gemini-3.8-flash"
         },
-        "latencyMs": 12062,
-        "attempts": 2,
+        "latencyMs": 2671,
+        "attempts": 1,
         "usage": {
           "promptTokens": 1389,
-          "outputTokens": 440,
-          "thoughtsTokens": 1759,
-          "totalTokens": 3588
+          "outputTokens": 604,
+          "totalTokens": 1993
         }
       },
       "modernize": {
-        "model": "gemini-3.8-flash",
+        "model": "gemini-3.5-flash-lite",
         "promptVersion": "v1",
         "settings": {
           "thinking": "low",
-          "mediaResolution": null
+          "mediaResolution": null,
+          "fallbackFrom": "gemini-3.8-flash"
         },
-        "latencyMs": 3329,
+        "latencyMs": 2368,
         "attempts": 1,
         "usage": {
-          "promptTokens": 431,
-          "outputTokens": 824,
-          "totalTokens": 1255
+          "promptTokens": 453,
+          "outputTokens": 498,
+          "totalTokens": 951
         }
       },
       "annotate": {
@@ -268,17 +245,630 @@
           "mediaResolution": null,
           "fallbackFrom": "gemini-3.8-flash"
         },
-        "latencyMs": 5130,
+        "latencyMs": 5154,
         "attempts": 1,
         "usage": {
-          "promptTokens": 414,
-          "outputTokens": 563,
-          "thoughtsTokens": 1101,
-          "totalTokens": 2078
+          "promptTokens": 436,
+          "outputTokens": 680,
+          "thoughtsTokens": 987,
+          "totalTokens": 2103
         }
       }
     },
     "errors": {},
-    "totalMs": 23450
+    "totalMs": 24427
+  },
+  "audio": {
+    "modern": {
+      "textSha256": "2d07959f6c24e7fd9b29f94817701d5df264fbe8df6a2a0d851877e2bb7d33ae",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "modelId": "eleven_multilingual_v2",
+      "files": [
+        "2d07959f6c24e7fd9b29f94817701d5df264fbe8df6a2a0d851877e2bb7d33ae-0.mp3"
+      ],
+      "durationSec": 29.583,
+      "words": [
+        {
+          "word": "Sir,",
+          "start": 0,
+          "end": 0.522,
+          "charStart": 0,
+          "charEnd": 4,
+          "chunk": 0
+        },
+        {
+          "word": "Williamsburg",
+          "start": 0.697,
+          "end": 1.405,
+          "charStart": 5,
+          "charEnd": 17,
+          "chunk": 0
+        },
+        {
+          "word": "July",
+          "start": 1.474,
+          "end": 1.776,
+          "charStart": 18,
+          "charEnd": 22,
+          "chunk": 0
+        },
+        {
+          "word": "20th",
+          "start": 1.892,
+          "end": 2.357,
+          "charStart": 23,
+          "charEnd": 27,
+          "chunk": 0
+        },
+        {
+          "word": "1779.",
+          "start": 2.473,
+          "end": 3.924,
+          "charStart": 28,
+          "charEnd": 33,
+          "chunk": 0
+        },
+        {
+          "word": "I",
+          "start": 4.365,
+          "end": 4.423,
+          "charStart": 34,
+          "charEnd": 35,
+          "chunk": 0
+        },
+        {
+          "word": "take",
+          "start": 4.54,
+          "end": 4.737,
+          "charStart": 36,
+          "charEnd": 40,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 4.76,
+          "end": 4.83,
+          "charStart": 41,
+          "charEnd": 44,
+          "chunk": 0
+        },
+        {
+          "word": "liberty",
+          "start": 4.876,
+          "end": 5.201,
+          "charStart": 45,
+          "charEnd": 52,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 5.248,
+          "end": 5.306,
+          "charStart": 53,
+          "charEnd": 55,
+          "chunk": 0
+        },
+        {
+          "word": "begging",
+          "start": 5.375,
+          "end": 5.7,
+          "charStart": 56,
+          "charEnd": 63,
+          "chunk": 0
+        },
+        {
+          "word": "leave",
+          "start": 5.782,
+          "end": 6.049,
+          "charStart": 64,
+          "charEnd": 69,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 6.084,
+          "end": 6.13,
+          "charStart": 70,
+          "charEnd": 72,
+          "chunk": 0
+        },
+        {
+          "word": "your",
+          "start": 6.177,
+          "end": 6.304,
+          "charStart": 73,
+          "charEnd": 77,
+          "chunk": 0
+        },
+        {
+          "word": "Excellency",
+          "start": 6.374,
+          "end": 7.047,
+          "charStart": 78,
+          "charEnd": 88,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 7.256,
+          "end": 7.361,
+          "charStart": 89,
+          "charEnd": 91,
+          "chunk": 0
+        },
+        {
+          "word": "forward",
+          "start": 7.442,
+          "end": 7.779,
+          "charStart": 92,
+          "charEnd": 99,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 7.814,
+          "end": 7.883,
+          "charStart": 100,
+          "charEnd": 103,
+          "chunk": 0
+        },
+        {
+          "word": "enclosed",
+          "start": 7.953,
+          "end": 8.545,
+          "charStart": 104,
+          "charEnd": 112,
+          "chunk": 0
+        },
+        {
+          "word": "by",
+          "start": 8.603,
+          "end": 8.707,
+          "charStart": 113,
+          "charEnd": 115,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 8.766,
+          "end": 8.835,
+          "charStart": 116,
+          "charEnd": 119,
+          "chunk": 0
+        },
+        {
+          "word": "first",
+          "start": 8.905,
+          "end": 9.172,
+          "charStart": 120,
+          "charEnd": 125,
+          "chunk": 0
+        },
+        {
+          "word": "flag",
+          "start": 9.23,
+          "end": 9.601,
+          "charStart": 126,
+          "charEnd": 130,
+          "chunk": 0
+        },
+        {
+          "word": "which",
+          "start": 9.88,
+          "end": 10.089,
+          "charStart": 131,
+          "charEnd": 136,
+          "chunk": 0
+        },
+        {
+          "word": "may",
+          "start": 10.136,
+          "end": 10.263,
+          "charStart": 137,
+          "charEnd": 140,
+          "chunk": 0
+        },
+        {
+          "word": "happen",
+          "start": 10.321,
+          "end": 10.577,
+          "charStart": 141,
+          "charEnd": 147,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 10.623,
+          "end": 10.67,
+          "charStart": 148,
+          "charEnd": 150,
+          "chunk": 0
+        },
+        {
+          "word": "be",
+          "start": 10.716,
+          "end": 10.809,
+          "charStart": 151,
+          "charEnd": 153,
+          "chunk": 0
+        },
+        {
+          "word": "going",
+          "start": 10.867,
+          "end": 11.111,
+          "charStart": 154,
+          "charEnd": 159,
+          "chunk": 0
+        },
+        {
+          "word": "into",
+          "start": 11.157,
+          "end": 11.32,
+          "charStart": 160,
+          "charEnd": 164,
+          "chunk": 0
+        },
+        {
+          "word": "New",
+          "start": 11.389,
+          "end": 11.517,
+          "charStart": 165,
+          "charEnd": 168,
+          "chunk": 0
+        },
+        {
+          "word": "York.",
+          "start": 11.564,
+          "end": 12.063,
+          "charStart": 169,
+          "charEnd": 174,
+          "chunk": 0
+        },
+        {
+          "word": "They",
+          "start": 12.574,
+          "end": 12.736,
+          "charStart": 175,
+          "charEnd": 179,
+          "chunk": 0
+        },
+        {
+          "word": "are",
+          "start": 12.771,
+          "end": 12.899,
+          "charStart": 180,
+          "charEnd": 183,
+          "chunk": 0
+        },
+        {
+          "word": "addressed",
+          "start": 12.934,
+          "end": 13.34,
+          "charStart": 184,
+          "charEnd": 193,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 13.363,
+          "end": 13.433,
+          "charStart": 194,
+          "charEnd": 196,
+          "chunk": 0
+        },
+        {
+          "word": "a",
+          "start": 13.502,
+          "end": 13.537,
+          "charStart": 197,
+          "charEnd": 198,
+          "chunk": 0
+        },
+        {
+          "word": "good",
+          "start": 13.595,
+          "end": 13.769,
+          "charStart": 199,
+          "charEnd": 203,
+          "chunk": 0
+        },
+        {
+          "word": "man",
+          "start": 13.816,
+          "end": 14.013,
+          "charStart": 204,
+          "charEnd": 207,
+          "chunk": 0
+        },
+        {
+          "word": "in",
+          "start": 14.083,
+          "end": 14.153,
+          "charStart": 208,
+          "charEnd": 210,
+          "chunk": 0
+        },
+        {
+          "word": "distress",
+          "start": 14.211,
+          "end": 14.779,
+          "charStart": 211,
+          "charEnd": 219,
+          "chunk": 0
+        },
+        {
+          "word": "which",
+          "start": 15.105,
+          "end": 15.302,
+          "charStart": 220,
+          "charEnd": 225,
+          "chunk": 0
+        },
+        {
+          "word": "I",
+          "start": 15.348,
+          "end": 15.372,
+          "charStart": 226,
+          "charEnd": 227,
+          "chunk": 0
+        },
+        {
+          "word": "am",
+          "start": 15.43,
+          "end": 15.523,
+          "charStart": 228,
+          "charEnd": 230,
+          "chunk": 0
+        },
+        {
+          "word": "sure",
+          "start": 15.593,
+          "end": 15.883,
+          "charStart": 231,
+          "charEnd": 235,
+          "chunk": 0
+        },
+        {
+          "word": "will",
+          "start": 15.918,
+          "end": 16.045,
+          "charStart": 236,
+          "charEnd": 240,
+          "chunk": 0
+        },
+        {
+          "word": "apologize",
+          "start": 16.08,
+          "end": 16.649,
+          "charStart": 241,
+          "charEnd": 250,
+          "chunk": 0
+        },
+        {
+          "word": "with",
+          "start": 16.684,
+          "end": 16.835,
+          "charStart": 251,
+          "charEnd": 255,
+          "chunk": 0
+        },
+        {
+          "word": "you",
+          "start": 16.881,
+          "end": 17.021,
+          "charStart": 256,
+          "charEnd": 259,
+          "chunk": 0
+        },
+        {
+          "word": "for",
+          "start": 17.299,
+          "end": 17.439,
+          "charStart": 260,
+          "charEnd": 263,
+          "chunk": 0
+        },
+        {
+          "word": "my",
+          "start": 17.485,
+          "end": 17.566,
+          "charStart": 264,
+          "charEnd": 266,
+          "chunk": 0
+        },
+        {
+          "word": "asking",
+          "start": 17.648,
+          "end": 18.031,
+          "charStart": 267,
+          "charEnd": 273,
+          "chunk": 0
+        },
+        {
+          "word": "your",
+          "start": 18.066,
+          "end": 18.182,
+          "charStart": 274,
+          "charEnd": 278,
+          "chunk": 0
+        },
+        {
+          "word": "intervention.",
+          "start": 18.228,
+          "end": 18.994,
+          "charStart": 279,
+          "charEnd": 292,
+          "chunk": 0
+        },
+        {
+          "word": "I",
+          "start": 19.505,
+          "end": 19.563,
+          "charStart": 293,
+          "charEnd": 294,
+          "chunk": 0
+        },
+        {
+          "word": "am",
+          "start": 19.633,
+          "end": 19.714,
+          "charStart": 295,
+          "charEnd": 297,
+          "chunk": 0
+        },
+        {
+          "word": "with",
+          "start": 19.761,
+          "end": 19.877,
+          "charStart": 298,
+          "charEnd": 302,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 19.912,
+          "end": 19.981,
+          "charStart": 303,
+          "charEnd": 306,
+          "chunk": 0
+        },
+        {
+          "word": "greatest",
+          "start": 20.039,
+          "end": 20.399,
+          "charStart": 307,
+          "charEnd": 315,
+          "chunk": 0
+        },
+        {
+          "word": "respect",
+          "start": 20.457,
+          "end": 20.956,
+          "charStart": 316,
+          "charEnd": 323,
+          "chunk": 0
+        },
+        {
+          "word": "your",
+          "start": 21.131,
+          "end": 21.305,
+          "charStart": 324,
+          "charEnd": 328,
+          "chunk": 0
+        },
+        {
+          "word": "Excellency's",
+          "start": 21.374,
+          "end": 22.025,
+          "charStart": 329,
+          "charEnd": 341,
+          "chunk": 0
+        },
+        {
+          "word": "most",
+          "start": 22.106,
+          "end": 22.338,
+          "charStart": 342,
+          "charEnd": 346,
+          "chunk": 0
+        },
+        {
+          "word": "obedient",
+          "start": 22.396,
+          "end": 22.895,
+          "charStart": 347,
+          "charEnd": 355,
+          "chunk": 0
+        },
+        {
+          "word": "&",
+          "start": 22.965,
+          "end": 23.058,
+          "charStart": 356,
+          "charEnd": 357,
+          "chunk": 0
+        },
+        {
+          "word": "most",
+          "start": 23.139,
+          "end": 23.336,
+          "charStart": 358,
+          "charEnd": 362,
+          "chunk": 0
+        },
+        {
+          "word": "humble",
+          "start": 23.394,
+          "end": 23.731,
+          "charStart": 363,
+          "charEnd": 369,
+          "chunk": 0
+        },
+        {
+          "word": "servant.",
+          "start": 23.766,
+          "end": 24.335,
+          "charStart": 370,
+          "charEnd": 378,
+          "chunk": 0
+        },
+        {
+          "word": "His",
+          "start": 24.718,
+          "end": 25.008,
+          "charStart": 379,
+          "charEnd": 382,
+          "chunk": 0
+        },
+        {
+          "word": "Excellency",
+          "start": 25.124,
+          "end": 25.879,
+          "charStart": 383,
+          "charEnd": 393,
+          "chunk": 0
+        },
+        {
+          "word": "Th:",
+          "start": 26.483,
+          "end": 26.808,
+          "charStart": 394,
+          "charEnd": 397,
+          "chunk": 0
+        },
+        {
+          "word": "Jefferson",
+          "start": 26.877,
+          "end": 27.307,
+          "charStart": 398,
+          "charEnd": 407,
+          "chunk": 0
+        },
+        {
+          "word": "Genl:",
+          "start": 27.365,
+          "end": 27.888,
+          "charStart": 408,
+          "charEnd": 413,
+          "chunk": 0
+        },
+        {
+          "word": "Washington",
+          "start": 28.062,
+          "end": 28.631,
+          "charStart": 414,
+          "charEnd": 424,
+          "chunk": 0
+        },
+        {
+          "word": "(Copy)",
+          "start": 28.723,
+          "end": 29.583,
+          "charStart": 425,
+          "charEnd": 431,
+          "chunk": 0
+        }
+      ]
+    }
   }
 }

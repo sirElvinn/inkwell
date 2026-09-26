@@ -9,9 +9,10 @@ import { errorHandler, notFound } from "./lib/errors";
 import { logger } from "./lib/logger";
 import { recoverInterruptedDocuments } from "./pipeline/run";
 import { loadExamples } from "./seed/examples";
+import { audioRouter } from "./routes/audio";
 import { documentsRouter } from "./routes/documents";
 import { healthRouter } from "./routes/health";
-import { UPLOAD_DIR } from "./lib/storage";
+import { AUDIO_DIR, UPLOAD_DIR } from "./lib/storage";
 
 const app = express();
 app.disable("x-powered-by");
@@ -33,11 +34,14 @@ app.use(express.json({ limit: "1mb" }));
 app.use(pinoHttp({ logger, autoLogging: { ignore: (req) => req.url === "/api/health" } }));
 
 app.use("/api/health", healthRouter);
+app.use("/api/documents/:id/audio", audioRouter);
 app.use("/api/documents", documentsRouter);
 app.use("/api", notFound);
 
 // Uploaded images (originals + derivatives). Filenames are content hashes, so they can be cached.
 app.use("/files/uploads", express.static(UPLOAD_DIR, { index: false, maxAge: "7d", immutable: true, fallthrough: false }));
+// Narration audio. Filenames include a hash of the text + voice + model, so they never change.
+app.use("/files/audio", express.static(AUDIO_DIR, { index: false, maxAge: "7d", immutable: true, fallthrough: false }));
 
 // Production: serve the built React app, with client-side routing fallback.
 const clientDist = fileURLToPath(new URL("../../client/dist", import.meta.url));

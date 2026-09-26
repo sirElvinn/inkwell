@@ -1,6 +1,6 @@
 // Typed fetch helpers. Every response is validated with the shared zod schemas,
 // so a server/client mismatch fails loudly instead of rendering garbage.
-import { ApiError, CreateDocumentResponse, DocumentDTO, DocumentSummary, HealthResponse } from "@inkwell/shared";
+import { ApiError, AudioResponse, CreateDocumentResponse, DocumentDTO, DocumentSummary, HealthResponse, type NarrationVariant } from "@inkwell/shared";
 import { z } from "zod";
 
 export class ApiRequestError extends Error {
@@ -31,6 +31,12 @@ export const api = {
   listExamples: () => request(z.array(DocumentSummary), "/api/documents?source=example"),
   retryDocument: (id: string) =>
     request(CreateDocumentResponse, `/api/documents/${encodeURIComponent(id)}/retry`, { method: "POST" }),
+  narrate: (id: string, variant: NarrationVariant) =>
+    request(AudioResponse, `/api/documents/${encodeURIComponent(id)}/audio`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ variant }),
+    }),
   createDocument: (file: File) => {
     const form = new FormData();
     form.append("image", file);

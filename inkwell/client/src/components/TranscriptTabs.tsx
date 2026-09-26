@@ -1,11 +1,11 @@
 import type { DocumentDTO } from "@inkwell/shared";
-import { useRef, useState, type KeyboardEvent, type ReactNode } from "react";
+import { useRef, type KeyboardEvent, type ReactNode } from "react";
 import { AsWritten } from "./AsWritten";
 import { LanguageLens } from "./LanguageLens";
 import { PeoplePlaces } from "./PeoplePlaces";
 import { ReadableText } from "./ReadableText";
 
-type TabKey = "written" | "modern" | "plain" | "people" | "lens";
+export type TabKey = "written" | "modern" | "plain" | "people" | "lens";
 const TABS: { key: TabKey; label: string }[] = [
   { key: "written", label: "As Written" },
   { key: "modern", label: "Modern English" },
@@ -40,8 +40,17 @@ function Pending({ doc, stageError, onRetry, children }: { doc: DocumentDTO; sta
   );
 }
 
-export function TranscriptTabs({ doc, onRetry }: { doc: DocumentDTO; onRetry?: () => void }) {
-  const [active, setActive] = useState<TabKey>("written");
+export function TranscriptTabs({
+  doc,
+  onRetry,
+  active,
+  setActive,
+}: {
+  doc: DocumentDTO;
+  onRetry?: () => void;
+  active: TabKey;
+  setActive: (tab: TabKey) => void;
+}) {
   const refs = useRef<Partial<Record<TabKey, HTMLButtonElement | null>>>({});
 
   // Arrow keys move between tabs (WAI-ARIA tabs pattern).
@@ -69,7 +78,7 @@ export function TranscriptTabs({ doc, onRetry }: { doc: DocumentDTO; onRetry?: (
       <Pending doc={doc} stageError={doc.runInfo?.errors.modernize} onRetry={onRetry}>This view isn't available for this letter.</Pending>
     );
   } else if (active === "modern") {
-    panel = <ReadableText text={doc.modernization.modern_text} entities={doc.annotations?.entities ?? []} links={doc.entityLinks} />;
+    panel = <ReadableText variant="modern" text={doc.modernization.modern_text} entities={doc.annotations?.entities ?? []} links={doc.entityLinks} />;
   } else if (active === "plain") {
     panel = (
       <div>
@@ -77,7 +86,7 @@ export function TranscriptTabs({ doc, onRetry }: { doc: DocumentDTO; onRetry?: (
           <h2 className="text-sm font-semibold uppercase tracking-wide text-sepia-dark">Summary</h2>
           <p className="mt-1 font-serif text-lg leading-relaxed">{doc.modernization.summary}</p>
         </div>
-        <ReadableText text={doc.modernization.plain_english} entities={doc.annotations?.entities ?? []} links={doc.entityLinks} />
+        <ReadableText variant="plain" text={doc.modernization.plain_english} entities={doc.annotations?.entities ?? []} links={doc.entityLinks} />
       </div>
     );
   } else {
@@ -86,7 +95,7 @@ export function TranscriptTabs({ doc, onRetry }: { doc: DocumentDTO; onRetry?: (
 
   return (
     <div>
-      <div role="tablist" aria-label="Letter views" onKeyDown={onKeyDown} className="-mx-1 flex gap-1 overflow-x-auto border-b border-rule px-1 pb-2 xl:flex-wrap">
+      <div role="tablist" aria-label="Letter views" onKeyDown={onKeyDown} className="-mx-1 flex gap-1 overflow-x-auto border-b border-rule px-1 pb-2">
         {TABS.map((t) => (
           <button
             key={t.key}
@@ -99,7 +108,7 @@ export function TranscriptTabs({ doc, onRetry }: { doc: DocumentDTO; onRetry?: (
             aria-controls={`panel-${t.key}`}
             tabIndex={active === t.key ? 0 : -1}
             onClick={() => setActive(t.key)}
-            className={`shrink-0 rounded-full px-3 py-2 text-sm font-medium ${
+            className={`shrink-0 rounded-full px-2.5 py-2 text-sm font-medium ${
               active === t.key ? "bg-ink text-parchment" : "text-ink-soft hover:bg-parchment-deep hover:text-ink"
             }`}
           >

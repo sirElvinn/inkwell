@@ -3,123 +3,107 @@
   "title": "Jefferson introduces William Short (1781)",
   "imageSha256": "99f7c818649b6203cbd42ef150bf69055441f2e154cb0c6795ee5a86e73b0aa7",
   "pipelineVersion": "v1",
-  "frozenAt": "2026-09-26T19:13:14.745Z",
+  "frozenAt": "2026-09-26T21:25:51.395Z",
   "transcription": {
     "not_a_manuscript": false,
     "lines": [
       {
         "n": 1,
-        "text": "Dear Sir"
+        "text": "Dear Sir Monticello Sep. 30. 1781."
       },
       {
         "n": 2,
-        "text": "Monticello Sep. 30. 1781."
-      },
-      {
-        "n": 3,
         "text": "The bearer mr William Short purposing"
       },
       {
-        "n": 4,
+        "n": 3,
         "text": "to Philadelphia for the prosecution of his studies"
       },
       {
-        "n": 5,
+        "n": 4,
         "text": "I take the liberty of introducing him to your notice."
       },
       {
-        "n": 6,
+        "n": 5,
         "text": "to this I am induced not more by my friendship"
       },
       {
-        "n": 7,
+        "n": 6,
         "text": "for him, than by a desire of availing myself of the"
       },
       {
-        "n": 8,
+        "n": 7,
         "text": "opportunity of assuring you that I cherish as a"
       },
       {
+        "n": 8,
+        "text": "valuable acquisition the acquaintance with which"
+      },
+      {
         "n": 9,
-        "text": "valuable acqusition the acquaintance with which"
+        "text": "you were pleased to honour me in Philadelphia,"
       },
       {
         "n": 10,
-        "text": "you were pleased to honour me in Philadelphia"
-      },
-      {
-        "n": 11,
         "text": "and of adding to the number of your well wishers"
       },
       {
-        "n": 12,
+        "n": 11,
         "text": "a gentleman of very uncommon genius, learning"
       },
       {
-        "n": 13,
+        "n": 12,
         "text": "& merit."
       },
       {
-        "n": 14,
+        "n": 13,
         "text": "I have the honor to be with great respect"
       },
       {
-        "n": 15,
-        "text": "d esteem Dr. Sir"
+        "n": 14,
+        "text": "& esteem Dr. Sir"
       },
       {
-        "n": 16,
+        "n": 15,
         "text": "your most humble servt"
       },
       {
-        "n": 17,
+        "n": 16,
         "text": "Th: Jefferson"
       }
     ],
     "uncertain": [],
-    "notes": "An inverted text passage appears upside down in the lower half of the page.",
-    "script_description": "Fluent 18th-century secretary/cursive hand in dark brown ink."
+    "notes": "",
+    "script_description": "Fluent 18th-century cursive hand in dark brown ink."
   },
   "modernization": {
-    "modern_text": "Dear Sir, Monticello, Sep. 30, 1781. The bearer Mr. William Short, purposing to Philadelphia for the prosecution of his studies, I take the liberty of introducing him to your notice. To this I am induced not more by my friendship for him, than by a desire of availing myself of the opportunity of assuring you that I cherish as a valuable acquisition the acquaintance with which you were pleased to honour me in Philadelphia, and of adding to the number of your well-wishers a gentleman of very uncommon genius, learning, & merit. I have the honor to be with great respect and esteem, Dear Sir, your most humble servant, Th: Jefferson",
-    "plain_english": "Dear Sir, writing from Monticello on September 30, 1781, Thomas Jefferson introduces Mr. William Short, who is traveling to Philadelphia to continue his studies. Jefferson explains that he is writing both out of friendship for Short and to thank the recipient for the acquaintance they formed in Philadelphia. He also commends Short as a gentleman of exceptional talent, education, and worth. Jefferson closes with great respect as the recipient's humble servant.",
-    "summary": "Thomas Jefferson writes a letter of introduction from Monticello on September 30, 1781, presenting Mr. William Short to the recipient as he travels to Philadelphia for his studies. Jefferson praises Short's exceptional character and learning while expressing his fondness for his own prior acquaintance with the recipient.",
+    "modern_text": "Dear Sir, Monticello Sep. 30. 1781. The bearer Mr. William Short purposing to Philadelphia for the prosecution of his studies, I take the liberty of introducing him to your notice. To this I am induced not more by my friendship for him, than by a desire of availing myself of the opportunity of assuring you that I cherish as a valuable acquisition the acquaintance with which you were pleased to honour me in Philadelphia, and of adding to the number of your well wishers a gentleman of very uncommon genius, learning, and merit. I have the honor to be with great respect and esteem, Dear Sir, your most humble servant, Th. Jefferson",
+    "plain_english": "Dear Sir, writing from Monticello on September 30, 1781, Thomas Jefferson introduces Mr. William Short, who is traveling to Philadelphia to continue his studies. Jefferson explains that he is writing both out of friendship for Short and to thank the recipient for their past acquaintance in Philadelphia, which Jefferson values highly. He also presents Short as a remarkably talented, educated, and worthy gentleman. Jefferson closes by expressing his great respect and esteem as the recipient's humble servant.",
+    "summary": "Thomas Jefferson writes to an acquaintance in Philadelphia on September 30, 1781, to introduce a young scholar named William Short. Jefferson praises Short's exceptional talent and character while also expressing his appreciation for his own past relationship with the recipient.",
     "glossary": [
       {
         "original": "Sep.",
-        "modern": "Sept.",
+        "modern": "September",
         "category": "abbreviation",
-        "explanation": "An abbreviation for the month of September."
-      },
-      {
-        "original": "acqusition",
-        "modern": "acquisition",
-        "category": "spelling",
-        "explanation": "An 18th-century spelling variant or typographical error for acquisition."
+        "explanation": "A standard abbreviation for the month of September."
       },
       {
         "original": "&",
         "modern": "and",
         "category": "symbol",
-        "explanation": "The ampersand symbol used to represent the conjunction and."
-      },
-      {
-        "original": "d",
-        "modern": "and",
-        "category": "abbreviation",
-        "explanation": "An abbreviation or slip of the pen representing the word and in the phrase 'and esteem'."
+        "explanation": "An ampersand used as a shorthand symbol for the conjunction 'and'."
       },
       {
         "original": "Dr.",
         "modern": "Dear",
         "category": "abbreviation",
-        "explanation": "An abbreviation for the salutation Dear."
+        "explanation": "An 18th-century abbreviation used in salutations for the word 'Dear'."
       },
       {
         "original": "servt",
         "modern": "servant",
         "category": "abbreviation",
-        "explanation": "An abbreviation for the word servant used in formal letter closings."
+        "explanation": "An abbreviation for 'servant', commonly used in polite letter closings of the period."
       }
     ]
   },
@@ -128,22 +112,22 @@
       "author": {
         "value": "Thomas Jefferson",
         "confidence": "high",
-        "evidence": "Th: Jefferson"
+        "evidence": "Th: Jefferson (line 16)"
       },
       "recipient": {
         "value": null,
         "confidence": "low",
-        "evidence": "Dear Sir"
+        "evidence": "Dear Sir (line 1)"
       },
       "date": {
         "value": "September 30, 1781",
         "confidence": "high",
-        "evidence": "Sep. 30. 1781."
+        "evidence": "Monticello Sep. 30. 1781. (line 1)"
       },
       "place": {
         "value": "Monticello",
         "confidence": "high",
-        "evidence": "Monticello"
+        "evidence": "Monticello (line 1)"
       }
     },
     "entities": [
@@ -151,31 +135,31 @@
         "surface": "Monticello",
         "canonical_name": "Monticello",
         "type": "place",
-        "description": "The primary plantation and home of Thomas Jefferson located near Charlottesville, Virginia.",
+        "description": "The primary plantation and home of Thomas Jefferson located in Virginia.",
         "confidence": "high",
         "lines": [
-          2
+          1
         ]
       },
       {
         "surface": "mr William Short",
         "canonical_name": "William Short",
         "type": "person",
-        "description": "A lifelong friend and protégé of Thomas Jefferson who served as his private secretary in Paris.",
+        "description": "An American diplomat, protégé, and private secretary to Thomas Jefferson.",
         "confidence": "high",
         "lines": [
-          3
+          2
         ]
       },
       {
         "surface": "Philadelphia",
         "canonical_name": "Philadelphia",
         "type": "place",
-        "description": "A major American city in Pennsylvania that served as the capital for the Continental Congress.",
+        "description": "A major city in Pennsylvania that served as a political, cultural, and educational center during the American Revolution.",
         "confidence": "high",
         "lines": [
-          4,
-          10
+          3,
+          9
         ]
       },
       {
@@ -185,16 +169,16 @@
         "description": "Author of the Declaration of Independence, governor of Virginia, and future U.S. President.",
         "confidence": "high",
         "lines": [
-          17
+          16
         ]
       }
     ],
-    "context": "Written in the fall of 1781 from Monticello, this letter introduces William Short to an unnamed recipient in Philadelphia as Short travels north to continue his studies. During this period, Jefferson was navigating the closing stages of his tumultuous tenure as Governor of Virginia amidst British military incursions.",
-    "why_it_matters": "Letters of introduction were vital social currency in early America, serving to build networks of trust, mentorship, and political association among the emerging nation's elite.",
+    "context": "In September 1781, Thomas Jefferson wrote from his Monticello estate to introduce William Short, his friend and former student, to an acquaintance in Philadelphia. Philadelphia served as a vital intellectual and political hub during the American Revolution, and Short was traveling there to further his education.",
+    "why_it_matters": "Letters of introduction were crucial social instruments in the founding era, creating networks of trust and patronage that helped ambitious young Americans like William Short advance their education and careers.",
     "discussion_questions": [
-      "How does Jefferson leverage social etiquette and networks of influence to support William Short's future?",
-      "What does the mention of Philadelphia indicate about its status as a cultural and intellectual hub during the American Revolution?",
-      "Why were letters of introduction crucial in the 18th century before the existence of modern credentials or formal recommendation systems?"
+      "How did letters of introduction function as social and professional currency in eighteenth-century America?",
+      "In what ways does this letter illustrate the importance of mentorship and personal networks among the Revolutionary-era elite?",
+      "What role did cities like Philadelphia play in the educational and political development of early American figures?"
     ]
   },
   "runInfo": {
@@ -205,7 +189,7 @@
         "settings": {
           "maxLongSide": 3000
         },
-        "latencyMs": 24,
+        "latencyMs": 19,
         "attempts": 1
       },
       "transcribe": {
@@ -216,12 +200,12 @@
           "mediaResolution": "high",
           "fallbackFrom": "gemini-3.8-flash"
         },
-        "latencyMs": 2717,
+        "latencyMs": 1936,
         "attempts": 1,
         "usage": {
           "promptTokens": 1396,
-          "outputTokens": 388,
-          "totalTokens": 1784
+          "outputTokens": 531,
+          "totalTokens": 1927
         }
       },
       "modernize": {
@@ -232,12 +216,12 @@
           "mediaResolution": null,
           "fallbackFrom": "gemini-3.8-flash"
         },
-        "latencyMs": 2307,
+        "latencyMs": 1975,
         "attempts": 1,
         "usage": {
-          "promptTokens": 463,
-          "outputTokens": 631,
-          "totalTokens": 1094
+          "promptTokens": 458,
+          "outputTokens": 534,
+          "totalTokens": 992
         }
       },
       "annotate": {
@@ -248,16 +232,926 @@
           "mediaResolution": null,
           "fallbackFrom": "gemini-3.8-flash"
         },
-        "latencyMs": 2982,
+        "latencyMs": 5623,
         "attempts": 1,
         "usage": {
-          "promptTokens": 446,
-          "outputTokens": 685,
-          "totalTokens": 1131
+          "promptTokens": 441,
+          "outputTokens": 462,
+          "thoughtsTokens": 1153,
+          "totalTokens": 2056
         }
       }
     },
     "errors": {},
-    "totalMs": 14116
+    "totalMs": 15985
+  },
+  "audio": {
+    "modern": {
+      "textSha256": "47435c162ae45680ab23558770f2daa29a4b66bd5607e90764d00d95f028d7b5",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "modelId": "eleven_multilingual_v2",
+      "files": [
+        "47435c162ae45680ab23558770f2daa29a4b66bd5607e90764d00d95f028d7b5-0.mp3"
+      ],
+      "durationSec": 40.728,
+      "words": [
+        {
+          "word": "Dear",
+          "start": 0,
+          "end": 0.302,
+          "charStart": 0,
+          "charEnd": 4,
+          "chunk": 0
+        },
+        {
+          "word": "Sir,",
+          "start": 0.383,
+          "end": 0.848,
+          "charStart": 5,
+          "charEnd": 9,
+          "chunk": 0
+        },
+        {
+          "word": "Monticello",
+          "start": 0.964,
+          "end": 1.567,
+          "charStart": 10,
+          "charEnd": 20,
+          "chunk": 0
+        },
+        {
+          "word": "Sep.",
+          "start": 1.649,
+          "end": 1.927,
+          "charStart": 21,
+          "charEnd": 25,
+          "chunk": 0
+        },
+        {
+          "word": "30.",
+          "start": 2.31,
+          "end": 2.844,
+          "charStart": 26,
+          "charEnd": 29,
+          "chunk": 0
+        },
+        {
+          "word": "1781.",
+          "start": 3.019,
+          "end": 4.203,
+          "charStart": 30,
+          "charEnd": 35,
+          "chunk": 0
+        },
+        {
+          "word": "The",
+          "start": 4.586,
+          "end": 4.702,
+          "charStart": 36,
+          "charEnd": 39,
+          "chunk": 0
+        },
+        {
+          "word": "bearer",
+          "start": 4.76,
+          "end": 5.085,
+          "charStart": 40,
+          "charEnd": 46,
+          "chunk": 0
+        },
+        {
+          "word": "Mr.",
+          "start": 5.143,
+          "end": 5.445,
+          "charStart": 47,
+          "charEnd": 50,
+          "chunk": 0
+        },
+        {
+          "word": "William",
+          "start": 5.468,
+          "end": 5.782,
+          "charStart": 51,
+          "charEnd": 58,
+          "chunk": 0
+        },
+        {
+          "word": "Short",
+          "start": 5.875,
+          "end": 6.246,
+          "charStart": 59,
+          "charEnd": 64,
+          "chunk": 0
+        },
+        {
+          "word": "purposing",
+          "start": 6.397,
+          "end": 6.885,
+          "charStart": 65,
+          "charEnd": 74,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 6.931,
+          "end": 7.001,
+          "charStart": 75,
+          "charEnd": 77,
+          "chunk": 0
+        },
+        {
+          "word": "Philadelphia",
+          "start": 7.059,
+          "end": 7.697,
+          "charStart": 78,
+          "charEnd": 90,
+          "chunk": 0
+        },
+        {
+          "word": "for",
+          "start": 7.755,
+          "end": 7.848,
+          "charStart": 91,
+          "charEnd": 94,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 7.883,
+          "end": 7.953,
+          "charStart": 95,
+          "charEnd": 98,
+          "chunk": 0
+        },
+        {
+          "word": "prosecution",
+          "start": 7.999,
+          "end": 8.603,
+          "charStart": 99,
+          "charEnd": 110,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 8.649,
+          "end": 8.696,
+          "charStart": 111,
+          "charEnd": 113,
+          "chunk": 0
+        },
+        {
+          "word": "his",
+          "start": 8.754,
+          "end": 8.847,
+          "charStart": 114,
+          "charEnd": 117,
+          "chunk": 0
+        },
+        {
+          "word": "studies,",
+          "start": 8.893,
+          "end": 9.439,
+          "charStart": 118,
+          "charEnd": 126,
+          "chunk": 0
+        },
+        {
+          "word": "I",
+          "start": 9.718,
+          "end": 9.776,
+          "charStart": 127,
+          "charEnd": 128,
+          "chunk": 0
+        },
+        {
+          "word": "take",
+          "start": 9.892,
+          "end": 10.101,
+          "charStart": 129,
+          "charEnd": 133,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 10.136,
+          "end": 10.205,
+          "charStart": 134,
+          "charEnd": 137,
+          "chunk": 0
+        },
+        {
+          "word": "liberty",
+          "start": 10.252,
+          "end": 10.6,
+          "charStart": 138,
+          "charEnd": 145,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 10.646,
+          "end": 10.704,
+          "charStart": 146,
+          "charEnd": 148,
+          "chunk": 0
+        },
+        {
+          "word": "introducing",
+          "start": 10.751,
+          "end": 11.343,
+          "charStart": 149,
+          "charEnd": 160,
+          "chunk": 0
+        },
+        {
+          "word": "him",
+          "start": 11.401,
+          "end": 11.505,
+          "charStart": 161,
+          "charEnd": 164,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 11.564,
+          "end": 11.622,
+          "charStart": 165,
+          "charEnd": 167,
+          "chunk": 0
+        },
+        {
+          "word": "your",
+          "start": 11.703,
+          "end": 11.854,
+          "charStart": 168,
+          "charEnd": 172,
+          "chunk": 0
+        },
+        {
+          "word": "notice.",
+          "start": 11.923,
+          "end": 12.492,
+          "charStart": 173,
+          "charEnd": 180,
+          "chunk": 0
+        },
+        {
+          "word": "To",
+          "start": 12.875,
+          "end": 12.98,
+          "charStart": 181,
+          "charEnd": 183,
+          "chunk": 0
+        },
+        {
+          "word": "this",
+          "start": 13.05,
+          "end": 13.293,
+          "charStart": 184,
+          "charEnd": 188,
+          "chunk": 0
+        },
+        {
+          "word": "I",
+          "start": 13.41,
+          "end": 13.468,
+          "charStart": 189,
+          "charEnd": 190,
+          "chunk": 0
+        },
+        {
+          "word": "am",
+          "start": 13.549,
+          "end": 13.63,
+          "charStart": 191,
+          "charEnd": 193,
+          "chunk": 0
+        },
+        {
+          "word": "induced",
+          "start": 13.688,
+          "end": 14.176,
+          "charStart": 194,
+          "charEnd": 201,
+          "chunk": 0
+        },
+        {
+          "word": "not",
+          "start": 14.269,
+          "end": 14.443,
+          "charStart": 202,
+          "charEnd": 205,
+          "chunk": 0
+        },
+        {
+          "word": "more",
+          "start": 14.512,
+          "end": 14.733,
+          "charStart": 206,
+          "charEnd": 210,
+          "chunk": 0
+        },
+        {
+          "word": "by",
+          "start": 14.779,
+          "end": 14.896,
+          "charStart": 211,
+          "charEnd": 213,
+          "chunk": 0
+        },
+        {
+          "word": "my",
+          "start": 14.954,
+          "end": 15.058,
+          "charStart": 214,
+          "charEnd": 216,
+          "chunk": 0
+        },
+        {
+          "word": "friendship",
+          "start": 15.128,
+          "end": 15.511,
+          "charStart": 217,
+          "charEnd": 227,
+          "chunk": 0
+        },
+        {
+          "word": "for",
+          "start": 15.557,
+          "end": 15.674,
+          "charStart": 228,
+          "charEnd": 231,
+          "chunk": 0
+        },
+        {
+          "word": "him,",
+          "start": 15.732,
+          "end": 16.022,
+          "charStart": 232,
+          "charEnd": 236,
+          "chunk": 0
+        },
+        {
+          "word": "than",
+          "start": 16.15,
+          "end": 16.312,
+          "charStart": 237,
+          "charEnd": 241,
+          "chunk": 0
+        },
+        {
+          "word": "by",
+          "start": 16.37,
+          "end": 16.498,
+          "charStart": 242,
+          "charEnd": 244,
+          "chunk": 0
+        },
+        {
+          "word": "a",
+          "start": 16.556,
+          "end": 16.579,
+          "charStart": 245,
+          "charEnd": 246,
+          "chunk": 0
+        },
+        {
+          "word": "desire",
+          "start": 16.637,
+          "end": 17.09,
+          "charStart": 247,
+          "charEnd": 253,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 17.136,
+          "end": 17.206,
+          "charStart": 254,
+          "charEnd": 256,
+          "chunk": 0
+        },
+        {
+          "word": "availing",
+          "start": 17.264,
+          "end": 17.659,
+          "charStart": 257,
+          "charEnd": 265,
+          "chunk": 0
+        },
+        {
+          "word": "myself",
+          "start": 17.729,
+          "end": 18.181,
+          "charStart": 266,
+          "charEnd": 272,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 18.251,
+          "end": 18.321,
+          "charStart": 273,
+          "charEnd": 275,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 18.367,
+          "end": 18.437,
+          "charStart": 276,
+          "charEnd": 279,
+          "chunk": 0
+        },
+        {
+          "word": "opportunity",
+          "start": 18.483,
+          "end": 19.157,
+          "charStart": 280,
+          "charEnd": 291,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 19.4,
+          "end": 19.516,
+          "charStart": 292,
+          "charEnd": 294,
+          "chunk": 0
+        },
+        {
+          "word": "assuring",
+          "start": 19.563,
+          "end": 20.004,
+          "charStart": 295,
+          "charEnd": 303,
+          "chunk": 0
+        },
+        {
+          "word": "you",
+          "start": 20.062,
+          "end": 20.167,
+          "charStart": 304,
+          "charEnd": 307,
+          "chunk": 0
+        },
+        {
+          "word": "that",
+          "start": 20.236,
+          "end": 20.364,
+          "charStart": 308,
+          "charEnd": 312,
+          "chunk": 0
+        },
+        {
+          "word": "I",
+          "start": 20.41,
+          "end": 20.445,
+          "charStart": 313,
+          "charEnd": 314,
+          "chunk": 0
+        },
+        {
+          "word": "cherish",
+          "start": 20.561,
+          "end": 20.991,
+          "charStart": 315,
+          "charEnd": 322,
+          "chunk": 0
+        },
+        {
+          "word": "as",
+          "start": 21.049,
+          "end": 21.165,
+          "charStart": 323,
+          "charEnd": 325,
+          "chunk": 0
+        },
+        {
+          "word": "a",
+          "start": 21.211,
+          "end": 21.246,
+          "charStart": 326,
+          "charEnd": 327,
+          "chunk": 0
+        },
+        {
+          "word": "valuable",
+          "start": 21.304,
+          "end": 21.722,
+          "charStart": 328,
+          "charEnd": 336,
+          "chunk": 0
+        },
+        {
+          "word": "acquisition",
+          "start": 21.769,
+          "end": 22.419,
+          "charStart": 337,
+          "charEnd": 348,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 22.698,
+          "end": 22.825,
+          "charStart": 349,
+          "charEnd": 352,
+          "chunk": 0
+        },
+        {
+          "word": "acquaintance",
+          "start": 22.872,
+          "end": 23.499,
+          "charStart": 353,
+          "charEnd": 365,
+          "chunk": 0
+        },
+        {
+          "word": "with",
+          "start": 23.533,
+          "end": 23.719,
+          "charStart": 366,
+          "charEnd": 370,
+          "chunk": 0
+        },
+        {
+          "word": "which",
+          "start": 23.754,
+          "end": 23.928,
+          "charStart": 371,
+          "charEnd": 376,
+          "chunk": 0
+        },
+        {
+          "word": "you",
+          "start": 23.963,
+          "end": 24.033,
+          "charStart": 377,
+          "charEnd": 380,
+          "chunk": 0
+        },
+        {
+          "word": "were",
+          "start": 24.068,
+          "end": 24.195,
+          "charStart": 381,
+          "charEnd": 385,
+          "chunk": 0
+        },
+        {
+          "word": "pleased",
+          "start": 24.242,
+          "end": 24.602,
+          "charStart": 386,
+          "charEnd": 393,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 24.625,
+          "end": 24.694,
+          "charStart": 394,
+          "charEnd": 396,
+          "chunk": 0
+        },
+        {
+          "word": "honour",
+          "start": 24.776,
+          "end": 25.02,
+          "charStart": 397,
+          "charEnd": 403,
+          "chunk": 0
+        },
+        {
+          "word": "me",
+          "start": 25.066,
+          "end": 25.182,
+          "charStart": 404,
+          "charEnd": 406,
+          "chunk": 0
+        },
+        {
+          "word": "in",
+          "start": 25.24,
+          "end": 25.31,
+          "charStart": 407,
+          "charEnd": 409,
+          "chunk": 0
+        },
+        {
+          "word": "Philadelphia,",
+          "start": 25.356,
+          "end": 26.25,
+          "charStart": 410,
+          "charEnd": 423,
+          "chunk": 0
+        },
+        {
+          "word": "and",
+          "start": 26.691,
+          "end": 26.842,
+          "charStart": 424,
+          "charEnd": 427,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 26.9,
+          "end": 26.97,
+          "charStart": 428,
+          "charEnd": 430,
+          "chunk": 0
+        },
+        {
+          "word": "adding",
+          "start": 27.04,
+          "end": 27.376,
+          "charStart": 431,
+          "charEnd": 437,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 27.434,
+          "end": 27.492,
+          "charStart": 438,
+          "charEnd": 440,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 27.562,
+          "end": 27.632,
+          "charStart": 441,
+          "charEnd": 444,
+          "chunk": 0
+        },
+        {
+          "word": "number",
+          "start": 27.678,
+          "end": 27.945,
+          "charStart": 445,
+          "charEnd": 451,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 27.992,
+          "end": 28.05,
+          "charStart": 452,
+          "charEnd": 454,
+          "chunk": 0
+        },
+        {
+          "word": "your",
+          "start": 28.108,
+          "end": 28.247,
+          "charStart": 455,
+          "charEnd": 459,
+          "chunk": 0
+        },
+        {
+          "word": "well",
+          "start": 28.305,
+          "end": 28.491,
+          "charStart": 460,
+          "charEnd": 464,
+          "chunk": 0
+        },
+        {
+          "word": "wishers",
+          "start": 28.538,
+          "end": 28.944,
+          "charStart": 465,
+          "charEnd": 472,
+          "chunk": 0
+        },
+        {
+          "word": "a",
+          "start": 29.153,
+          "end": 29.246,
+          "charStart": 473,
+          "charEnd": 474,
+          "chunk": 0
+        },
+        {
+          "word": "gentleman",
+          "start": 29.327,
+          "end": 29.78,
+          "charStart": 475,
+          "charEnd": 484,
+          "chunk": 0
+        },
+        {
+          "word": "of",
+          "start": 29.815,
+          "end": 29.873,
+          "charStart": 485,
+          "charEnd": 487,
+          "chunk": 0
+        },
+        {
+          "word": "very",
+          "start": 29.931,
+          "end": 30.175,
+          "charStart": 488,
+          "charEnd": 492,
+          "chunk": 0
+        },
+        {
+          "word": "uncommon",
+          "start": 30.268,
+          "end": 30.813,
+          "charStart": 493,
+          "charEnd": 501,
+          "chunk": 0
+        },
+        {
+          "word": "genius,",
+          "start": 30.883,
+          "end": 31.498,
+          "charStart": 502,
+          "charEnd": 509,
+          "chunk": 0
+        },
+        {
+          "word": "learning,",
+          "start": 31.742,
+          "end": 32.23,
+          "charStart": 510,
+          "charEnd": 519,
+          "chunk": 0
+        },
+        {
+          "word": "and",
+          "start": 32.253,
+          "end": 32.415,
+          "charStart": 520,
+          "charEnd": 523,
+          "chunk": 0
+        },
+        {
+          "word": "merit.",
+          "start": 32.508,
+          "end": 33.019,
+          "charStart": 524,
+          "charEnd": 530,
+          "chunk": 0
+        },
+        {
+          "word": "I",
+          "start": 33.623,
+          "end": 33.692,
+          "charStart": 531,
+          "charEnd": 532,
+          "chunk": 0
+        },
+        {
+          "word": "have",
+          "start": 33.809,
+          "end": 33.959,
+          "charStart": 533,
+          "charEnd": 537,
+          "chunk": 0
+        },
+        {
+          "word": "the",
+          "start": 33.994,
+          "end": 34.076,
+          "charStart": 538,
+          "charEnd": 541,
+          "chunk": 0
+        },
+        {
+          "word": "honor",
+          "start": 34.134,
+          "end": 34.366,
+          "charStart": 542,
+          "charEnd": 547,
+          "chunk": 0
+        },
+        {
+          "word": "to",
+          "start": 34.412,
+          "end": 34.47,
+          "charStart": 548,
+          "charEnd": 550,
+          "chunk": 0
+        },
+        {
+          "word": "be",
+          "start": 34.54,
+          "end": 34.656,
+          "charStart": 551,
+          "charEnd": 553,
+          "chunk": 0
+        },
+        {
+          "word": "with",
+          "start": 34.703,
+          "end": 34.853,
+          "charStart": 554,
+          "charEnd": 558,
+          "chunk": 0
+        },
+        {
+          "word": "great",
+          "start": 34.911,
+          "end": 35.12,
+          "charStart": 559,
+          "charEnd": 564,
+          "chunk": 0
+        },
+        {
+          "word": "respect",
+          "start": 35.19,
+          "end": 35.631,
+          "charStart": 565,
+          "charEnd": 572,
+          "chunk": 0
+        },
+        {
+          "word": "and",
+          "start": 35.689,
+          "end": 35.794,
+          "charStart": 573,
+          "charEnd": 576,
+          "chunk": 0
+        },
+        {
+          "word": "esteem,",
+          "start": 35.875,
+          "end": 36.456,
+          "charStart": 577,
+          "charEnd": 584,
+          "chunk": 0
+        },
+        {
+          "word": "Dear",
+          "start": 36.63,
+          "end": 36.862,
+          "charStart": 585,
+          "charEnd": 589,
+          "chunk": 0
+        },
+        {
+          "word": "Sir,",
+          "start": 36.932,
+          "end": 37.454,
+          "charStart": 590,
+          "charEnd": 594,
+          "chunk": 0
+        },
+        {
+          "word": "your",
+          "start": 37.779,
+          "end": 37.942,
+          "charStart": 595,
+          "charEnd": 599,
+          "chunk": 0
+        },
+        {
+          "word": "most",
+          "start": 38,
+          "end": 38.174,
+          "charStart": 600,
+          "charEnd": 604,
+          "chunk": 0
+        },
+        {
+          "word": "humble",
+          "start": 38.232,
+          "end": 38.58,
+          "charStart": 605,
+          "charEnd": 611,
+          "chunk": 0
+        },
+        {
+          "word": "servant,",
+          "start": 38.627,
+          "end": 39.138,
+          "charStart": 612,
+          "charEnd": 620,
+          "chunk": 0
+        },
+        {
+          "word": "Th.",
+          "start": 39.254,
+          "end": 39.695,
+          "charStart": 621,
+          "charEnd": 624,
+          "chunk": 0
+        },
+        {
+          "word": "Jefferson",
+          "start": 39.973,
+          "end": 40.728,
+          "charStart": 625,
+          "charEnd": 634,
+          "chunk": 0
+        }
+      ]
+    }
   }
 }

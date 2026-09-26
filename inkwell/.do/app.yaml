@@ -28,4 +28,4 @@ services:
       - { key: ELEVENLABS_MODEL_ID, value: eleven_multilingual_v2 }
       - { key: GEMINI_API_KEY, type: SECRET }
       - { key: ELEVENLABS_API_KEY, type: SECRET }
-      - { key: ELEVENLABS_VOICE_ID, type: SECRET }
+      - { key: ELEVENLABS_VOICE_ID, value: JBFqnCBsd6RMkjVDRZzb }
