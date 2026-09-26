@@ -1,0 +1,263 @@
+{
+  "slug": "tj-1781-09-30-short",
+  "title": "Jefferson introduces William Short (1781)",
+  "imageSha256": "99f7c818649b6203cbd42ef150bf69055441f2e154cb0c6795ee5a86e73b0aa7",
+  "pipelineVersion": "v1",
+  "frozenAt": "2026-09-26T19:13:14.745Z",
+  "transcription": {
+    "not_a_manuscript": false,
+    "lines": [
+      {
+        "n": 1,
+        "text": "Dear Sir"
+      },
+      {
+        "n": 2,
+        "text": "Monticello Sep. 30. 1781."
+      },
+      {
+        "n": 3,
+        "text": "The bearer mr William Short purposing"
+      },
+      {
+        "n": 4,
+        "text": "to Philadelphia for the prosecution of his studies"
+      },
+      {
+        "n": 5,
+        "text": "I take the liberty of introducing him to your notice."
+      },
+      {
+        "n": 6,
+        "text": "to this I am induced not more by my friendship"
+      },
+      {
+        "n": 7,
+        "text": "for him, than by a desire of availing myself of the"
+      },
+      {
+        "n": 8,
+        "text": "opportunity of assuring you that I cherish as a"
+      },
+      {
+        "n": 9,
+        "text": "valuable acqusition the acquaintance with which"
+      },
+      {
+        "n": 10,
+        "text": "you were pleased to honour me in Philadelphia"
+      },
+      {
+        "n": 11,
+        "text": "and of adding to the number of your well wishers"
+      },
+      {
+        "n": 12,
+        "text": "a gentleman of very uncommon genius, learning"
+      },
+      {
+        "n": 13,
+        "text": "& merit."
+      },
+      {
+        "n": 14,
+        "text": "I have the honor to be with great respect"
+      },
+      {
+        "n": 15,
+        "text": "d esteem Dr. Sir"
+      },
+      {
+        "n": 16,
+        "text": "your most humble servt"
+      },
+      {
+        "n": 17,
+        "text": "Th: Jefferson"
+      }
+    ],
+    "uncertain": [],
+    "notes": "An inverted text passage appears upside down in the lower half of the page.",
+    "script_description": "Fluent 18th-century secretary/cursive hand in dark brown ink."
+  },
+  "modernization": {
+    "modern_text": "Dear Sir, Monticello, Sep. 30, 1781. The bearer Mr. William Short, purposing to Philadelphia for the prosecution of his studies, I take the liberty of introducing him to your notice. To this I am induced not more by my friendship for him, than by a desire of availing myself of the opportunity of assuring you that I cherish as a valuable acquisition the acquaintance with which you were pleased to honour me in Philadelphia, and of adding to the number of your well-wishers a gentleman of very uncommon genius, learning, & merit. I have the honor to be with great respect and esteem, Dear Sir, your most humble servant, Th: Jefferson",
+    "plain_english": "Dear Sir, writing from Monticello on September 30, 1781, Thomas Jefferson introduces Mr. William Short, who is traveling to Philadelphia to continue his studies. Jefferson explains that he is writing both out of friendship for Short and to thank the recipient for the acquaintance they formed in Philadelphia. He also commends Short as a gentleman of exceptional talent, education, and worth. Jefferson closes with great respect as the recipient's humble servant.",
+    "summary": "Thomas Jefferson writes a letter of introduction from Monticello on September 30, 1781, presenting Mr. William Short to the recipient as he travels to Philadelphia for his studies. Jefferson praises Short's exceptional character and learning while expressing his fondness for his own prior acquaintance with the recipient.",
+    "glossary": [
+      {
+        "original": "Sep.",
+        "modern": "Sept.",
+        "category": "abbreviation",
+        "explanation": "An abbreviation for the month of September."
+      },
+      {
+        "original": "acqusition",
+        "modern": "acquisition",
+        "category": "spelling",
+        "explanation": "An 18th-century spelling variant or typographical error for acquisition."
+      },
+      {
+        "original": "&",
+        "modern": "and",
+        "category": "symbol",
+        "explanation": "The ampersand symbol used to represent the conjunction and."
+      },
+      {
+        "original": "d",
+        "modern": "and",
+        "category": "abbreviation",
+        "explanation": "An abbreviation or slip of the pen representing the word and in the phrase 'and esteem'."
+      },
+      {
+        "original": "Dr.",
+        "modern": "Dear",
+        "category": "abbreviation",
+        "explanation": "An abbreviation for the salutation Dear."
+      },
+      {
+        "original": "servt",
+        "modern": "servant",
+        "category": "abbreviation",
+        "explanation": "An abbreviation for the word servant used in formal letter closings."
+      }
+    ]
+  },
+  "annotations": {
+    "letter_metadata": {
+      "author": {
+        "value": "Thomas Jefferson",
+        "confidence": "high",
+        "evidence": "Th: Jefferson"
+      },
+      "recipient": {
+        "value": null,
+        "confidence": "low",
+        "evidence": "Dear Sir"
+      },
+      "date": {
+        "value": "September 30, 1781",
+        "confidence": "high",
+        "evidence": "Sep. 30. 1781."
+      },
+      "place": {
+        "value": "Monticello",
+        "confidence": "high",
+        "evidence": "Monticello"
+      }
+    },
+    "entities": [
+      {
+        "surface": "Monticello",
+        "canonical_name": "Monticello",
+        "type": "place",
+        "description": "The primary plantation and home of Thomas Jefferson located near Charlottesville, Virginia.",
+        "confidence": "high",
+        "lines": [
+          2
+        ]
+      },
+      {
+        "surface": "mr William Short",
+        "canonical_name": "William Short",
+        "type": "person",
+        "description": "A lifelong friend and protégé of Thomas Jefferson who served as his private secretary in Paris.",
+        "confidence": "high",
+        "lines": [
+          3
+        ]
+      },
+      {
+        "surface": "Philadelphia",
+        "canonical_name": "Philadelphia",
+        "type": "place",
+        "description": "A major American city in Pennsylvania that served as the capital for the Continental Congress.",
+        "confidence": "high",
+        "lines": [
+          4,
+          10
+        ]
+      },
+      {
+        "surface": "Th: Jefferson",
+        "canonical_name": "Thomas Jefferson",
+        "type": "person",
+        "description": "Author of the Declaration of Independence, governor of Virginia, and future U.S. President.",
+        "confidence": "high",
+        "lines": [
+          17
+        ]
+      }
+    ],
+    "context": "Written in the fall of 1781 from Monticello, this letter introduces William Short to an unnamed recipient in Philadelphia as Short travels north to continue his studies. During this period, Jefferson was navigating the closing stages of his tumultuous tenure as Governor of Virginia amidst British military incursions.",
+    "why_it_matters": "Letters of introduction were vital social currency in early America, serving to build networks of trust, mentorship, and political association among the emerging nation's elite.",
+    "discussion_questions": [
+      "How does Jefferson leverage social etiquette and networks of influence to support William Short's future?",
+      "What does the mention of Philadelphia indicate about its status as a cultural and intellectual hub during the American Revolution?",
+      "Why were letters of introduction crucial in the 18th century before the existence of modern credentials or formal recommendation systems?"
+    ]
+  },
+  "runInfo": {
+    "stages": {
+      "preprocess": {
+        "model": "sharp",
+        "promptVersion": "-",
+        "settings": {
+          "maxLongSide": 3000
+        },
+        "latencyMs": 24,
+        "attempts": 1
+      },
+      "transcribe": {
+        "model": "gemini-3.5-flash-lite",
+        "promptVersion": "v1",
+        "settings": {
+          "thinking": "medium",
+          "mediaResolution": "high",
+          "fallbackFrom": "gemini-3.8-flash"
+        },
+        "latencyMs": 2717,
+        "attempts": 1,
+        "usage": {
+          "promptTokens": 1396,
+          "outputTokens": 388,
+          "totalTokens": 1784
+        }
+      },
+      "modernize": {
+        "model": "gemini-3.5-flash-lite",
+        "promptVersion": "v1",
+        "settings": {
+          "thinking": "low",
+          "mediaResolution": null,
+          "fallbackFrom": "gemini-3.8-flash"
+        },
+        "latencyMs": 2307,
+        "attempts": 1,
+        "usage": {
+          "promptTokens": 463,
+          "outputTokens": 631,
+          "totalTokens": 1094
+        }
+      },
+      "annotate": {
+        "model": "gemini-3.5-flash-lite",
+        "promptVersion": "v1",
+        "settings": {
+          "thinking": "medium",
+          "mediaResolution": null,
+          "fallbackFrom": "gemini-3.8-flash"
+        },
+        "latencyMs": 2982,
+        "attempts": 1,
+        "usage": {
+          "promptTokens": 446,
+          "outputTokens": 685,
+          "totalTokens": 1131
+        }
+      }
+    },
+    "errors": {},
+    "totalMs": 14116
+  }
+}

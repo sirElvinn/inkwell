@@ -17,4 +17,6 @@ npm run dev                       # client on http://localhost:5173, API on :808
 
 ## Built during &hacks XII
 
-All code in this repository was written during the event (from 12:00 PM Saturday, Sep 26, 2026). Pre-existing assets: none so far.
+All code in this repository was written during the event (from 12:00 PM Saturday, Sep 26, 2026). Pre-existing assets: none.
+
+Example letters (`server/src/seed/images/`) are scans from the Library of Congress's George Washington Papers and Thomas Jefferson Papers, selected during the event.

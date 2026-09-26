@@ -15,7 +15,7 @@ model Document {
   id              String       @id @default(cuid())
   createdAt       DateTime     @default(now())
   updatedAt       DateTime     @updatedAt
-  source          String // "upload" | "example"
+  source          String // "upload" | "example" | "seed" (seed = temporary row while `npm run seed` runs)
   title           String?
   imageSha256     String
   originalPath    String

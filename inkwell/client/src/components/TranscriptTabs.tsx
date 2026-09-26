@@ -1,6 +1,9 @@
 import type { DocumentDTO } from "@inkwell/shared";
 import { useRef, useState, type KeyboardEvent, type ReactNode } from "react";
 import { AsWritten } from "./AsWritten";
+import { LanguageLens } from "./LanguageLens";
+import { PeoplePlaces } from "./PeoplePlaces";
+import { ReadableText } from "./ReadableText";
 
 type TabKey = "written" | "modern" | "plain" | "people" | "lens";
 const TABS: { key: TabKey; label: string }[] = [
@@ -21,13 +24,23 @@ function Skeleton() {
   );
 }
 
-function Pending({ doc, children }: { doc: DocumentDTO; children: ReactNode }) {
+/** Shown while a stage is still running (skeleton) or after it failed (friendly message + retry). */
+function Pending({ doc, stageError, onRetry, children }: { doc: DocumentDTO; stageError?: string; onRetry?: () => void; children: ReactNode }) {
   const running = !["DONE", "ERROR"].includes(doc.status);
   if (running) return <Skeleton />;
-  return <p className="text-ink-soft">{children}</p>;
+  return (
+    <div className="rounded-xl border border-rule bg-card p-4">
+      <p className="text-ink-soft">{stageError ?? children}</p>
+      {onRetry && doc.transcription && (
+        <button type="button" onClick={onRetry} className="mt-3 rounded-lg bg-ink px-4 py-2 text-sm font-semibold text-parchment">
+          Try again
+        </button>
+      )}
+    </div>
+  );
 }
 
-export function TranscriptTabs({ doc }: { doc: DocumentDTO }) {
+export function TranscriptTabs({ doc, onRetry }: { doc: DocumentDTO; onRetry?: () => void }) {
   const [active, setActive] = useState<TabKey>("written");
   const refs = useRef<Partial<Record<TabKey, HTMLButtonElement | null>>>({});
 
@@ -45,9 +58,30 @@ export function TranscriptTabs({ doc }: { doc: DocumentDTO }) {
   let panel: ReactNode;
   if (active === "written") {
     panel = doc.transcription ? <AsWritten transcription={doc.transcription} /> : <Pending doc={doc}>No transcription yet.</Pending>;
+  } else if (active === "people") {
+    panel = doc.annotations ? (
+      <PeoplePlaces annotations={doc.annotations} links={doc.entityLinks} />
+    ) : (
+      <Pending doc={doc} stageError={doc.runInfo?.errors.annotate} onRetry={onRetry}>People and places aren't available for this letter.</Pending>
+    );
+  } else if (!doc.modernization) {
+    panel = (
+      <Pending doc={doc} stageError={doc.runInfo?.errors.modernize} onRetry={onRetry}>This view isn't available for this letter.</Pending>
+    );
+  } else if (active === "modern") {
+    panel = <ReadableText text={doc.modernization.modern_text} entities={doc.annotations?.entities ?? []} links={doc.entityLinks} />;
+  } else if (active === "plain") {
+    panel = (
+      <div>
+        <div className="mb-5 rounded-xl bg-parchment-deep p-4">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-sepia-dark">Summary</h2>
+          <p className="mt-1 font-serif text-lg leading-relaxed">{doc.modernization.summary}</p>
+        </div>
+        <ReadableText text={doc.modernization.plain_english} entities={doc.annotations?.entities ?? []} links={doc.entityLinks} />
+      </div>
+    );
   } else {
-    // Modern, Plain, People & Places, and Language Lens arrive in P2.
-    panel = <Pending doc={doc}>This view isn't available yet.</Pending>;
+    panel = <LanguageLens glossary={doc.modernization.glossary} />;
   }
 
   return (

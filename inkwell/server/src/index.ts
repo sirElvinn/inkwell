@@ -8,6 +8,7 @@ import { env, isProd } from "./env";
 import { errorHandler, notFound } from "./lib/errors";
 import { logger } from "./lib/logger";
 import { recoverInterruptedDocuments } from "./pipeline/run";
+import { loadExamples } from "./seed/examples";
 import { documentsRouter } from "./routes/documents";
 import { healthRouter } from "./routes/health";
 import { UPLOAD_DIR } from "./lib/storage";
@@ -49,4 +50,5 @@ app.use(notFound);
 app.use(errorHandler);
 
 await recoverInterruptedDocuments();
+await loadExamples().catch((err) => logger.error({ err }, "failed to load examples"));
 app.listen(env.PORT, () => logger.info(`Inkwell server on http://localhost:${env.PORT}`));

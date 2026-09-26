@@ -8,7 +8,8 @@
     "build": "prisma generate && tsc --noEmit",
     "start": "prisma migrate deploy && tsx src/index.ts",
     "typecheck": "tsc --noEmit",
-    "db:migrate": "prisma migrate dev"
+    "db:migrate": "prisma migrate dev",
+    "seed": "tsx src/seed/seed.ts"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",

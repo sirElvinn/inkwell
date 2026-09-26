@@ -1,0 +1,284 @@
+{
+  "slug": "tj-1779-07-williamsburg",
+  "title": "Jefferson to Washington, from Williamsburg (1779)",
+  "imageSha256": "c69c9a96126801c1575584cf949be8a69d101fdc5b010d9c4c2ee99a11c478c8",
+  "pipelineVersion": "v1",
+  "frozenAt": "2026-09-26T19:12:38.386Z",
+  "transcription": {
+    "not_a_manuscript": false,
+    "lines": [
+      {
+        "n": 1,
+        "text": "No. 3."
+      },
+      {
+        "n": 2,
+        "text": "Williamsburg July 20. 1779"
+      },
+      {
+        "n": 3,
+        "text": "Sir,"
+      },
+      {
+        "n": 4,
+        "text": "I take the liberty of begging"
+      },
+      {
+        "n": 5,
+        "text": "leave of your Excellency to forward"
+      },
+      {
+        "n": 6,
+        "text": "the enclosed by the first flag which"
+      },
+      {
+        "n": 7,
+        "text": "may happen to be going into"
+      },
+      {
+        "n": 8,
+        "text": "- New york. They are addressed to"
+      },
+      {
+        "n": 9,
+        "text": "good man in distress which I am"
+      },
+      {
+        "n": 10,
+        "text": "sure will apologize with you for"
+      },
+      {
+        "n": 11,
+        "text": "my asking your intervention"
+      },
+      {
+        "n": 12,
+        "text": "I am with the greatest respect"
+      },
+      {
+        "n": 13,
+        "text": "your Excellency's most obdt"
+      },
+      {
+        "n": 14,
+        "text": "& most. hble servt"
+      },
+      {
+        "n": 15,
+        "text": "Th:Jefferson"
+      },
+      {
+        "n": 16,
+        "text": "His Excellency"
+      },
+      {
+        "n": 17,
+        "text": "Genl Washington"
+      },
+      {
+        "n": 18,
+        "text": "(Copy)"
+      }
+    ],
+    "uncertain": [],
+    "notes": "Contemporary clerical copy of a letter from Thomas Jefferson to George Washington. Includes an oval Library of Congress stamp overlapping the dateline and a modern stamped page number '555' at the bottom left.",
+    "script_description": "Neat 18th-century clerical cursive hand in dark brown ink."
+  },
+  "modernization": {
+    "modern_text": "Number 3.\nWilliamsburg, July 20, 1779\n\nSir,\n\nI take the liberty of begging leave of your Excellency to forward the enclosed by the first flag which may happen to be going into New York. They are addressed to [a] good man in distress, which I am sure will apologize with you for my asking your intervention.\n\nI am with the greatest respect, your Excellency's most obedient and most humble servant,\n\nThomas Jefferson\n\nHis Excellency General Washington\n(Copy)",
+    "plain_english": "Williamsburg, July 20, 1779\n\nSir,\n\nI am writing to ask your Excellency for permission to send the enclosed letters on the first ship or party carrying a flag of truce into New York. They are addressed to a good man who is suffering, and I am certain his difficult situation will excuse my asking for your help in delivering them.\n\nWith great respect, I remain your Excellency's most obedient and humble servant,\n\nThomas Jefferson\n\nTo His Excellency General Washington",
+    "summary": "Thomas Jefferson writes to General George Washington requesting that enclosed letters be forwarded to British-held New York under a flag of truce. Jefferson explains that the letters are meant for a suffering man, which he hopes will excuse his request for Washington's intervention. The letter concludes with standard 18th-century expressions of high respect.",
+    "glossary": [
+      {
+        "original": "No.",
+        "modern": "Number",
+        "category": "abbreviation",
+        "explanation": "Shortened form of the Latin word 'numero', meaning number."
+      },
+      {
+        "original": "flag",
+        "modern": "flag of truce",
+        "category": "archaic_word",
+        "explanation": "Used here as shorthand for a vessel, messenger, or party traveling under a flag of truce between opposing military lines."
+      },
+      {
+        "original": "apologize with",
+        "modern": "serve as an excuse to",
+        "category": "archaic_word",
+        "explanation": "An eighteenth-century idiom meaning to provide a justification or valid excuse to someone."
+      },
+      {
+        "original": "obdt",
+        "modern": "obedient",
+        "category": "abbreviation",
+        "explanation": "Scribal abbreviation for 'obedient', standard in formal closings."
+      },
+      {
+        "original": "&",
+        "modern": "and",
+        "category": "symbol",
+        "explanation": "The ampersand symbol representing the conjunction 'and'."
+      },
+      {
+        "original": "hble",
+        "modern": "humble",
+        "category": "abbreviation",
+        "explanation": "Abbreviation for 'humble', commonly used in polite epistolary sign-offs."
+      },
+      {
+        "original": "servt",
+        "modern": "servant",
+        "category": "abbreviation",
+        "explanation": "Abbreviation for 'servant', used in deferential complimentary closes."
+      },
+      {
+        "original": "Th:Jefferson",
+        "modern": "Thomas Jefferson",
+        "category": "abbreviation",
+        "explanation": "Jefferson's standard contracted signature, abbreviating 'Thomas' using a colon."
+      },
+      {
+        "original": "Genl",
+        "modern": "General",
+        "category": "abbreviation",
+        "explanation": "Abbreviated military title for 'General'."
+      }
+    ]
+  },
+  "annotations": {
+    "letter_metadata": {
+      "author": {
+        "value": "Thomas Jefferson",
+        "confidence": "high",
+        "evidence": "Th:Jefferson (line 15)"
+      },
+      "recipient": {
+        "value": "George Washington",
+        "confidence": "high",
+        "evidence": "His Excellency Genl Washington (lines 16-17)"
+      },
+      "date": {
+        "value": "July 20, 1779",
+        "confidence": "high",
+        "evidence": "Williamsburg July 20. 1779 (line 2)"
+      },
+      "place": {
+        "value": "Williamsburg",
+        "confidence": "high",
+        "evidence": "Williamsburg July 20. 1779 (line 2)"
+      }
+    },
+    "entities": [
+      {
+        "surface": "Williamsburg",
+        "canonical_name": "Williamsburg, Virginia",
+        "type": "place",
+        "description": "An historic city in Virginia that served as the colonial and early state capital.",
+        "confidence": "high",
+        "lines": [
+          2
+        ]
+      },
+      {
+        "surface": "New york",
+        "canonical_name": "New York City",
+        "type": "place",
+        "description": "A major port city occupied by British forces during much of the American Revolutionary War.",
+        "confidence": "high",
+        "lines": [
+          8
+        ]
+      },
+      {
+        "surface": "Th:Jefferson",
+        "canonical_name": "Thomas Jefferson",
+        "type": "person",
+        "description": "Author of the letter, serving as Governor of Virginia in 1779 and later the third U.S. President.",
+        "confidence": "high",
+        "lines": [
+          15
+        ]
+      },
+      {
+        "surface": "Genl Washington",
+        "canonical_name": "George Washington",
+        "type": "person",
+        "description": "Commander-in-Chief of the Continental Army during the American Revolutionary War.",
+        "confidence": "high",
+        "lines": [
+          17
+        ]
+      }
+    ],
+    "context": "In July 1779, Thomas Jefferson was serving as the Governor of Virginia. In this capacity, he wrote to General George Washington, commander of the Continental Army, asking for assistance in forwarding a private letter through enemy lines to New York via a flag of truce.",
+    "why_it_matters": "This letter highlights the intersection of personal humanitarian concerns and military protocols during the Revolutionary War, while showcasing the professional relationship between two of America's foremost Founding Fathers.",
+    "discussion_questions": [
+      "How does this letter reveal the personal impacts and human connections disrupted by the Revolutionary War?",
+      "Why was military intervention such as a flag of truce required to send a simple letter to New York at this time?",
+      "What does the deferential tone of this letter tell us about the relationship between Jefferson and Washington in 1779?"
+    ]
+  },
+  "runInfo": {
+    "stages": {
+      "preprocess": {
+        "model": "sharp",
+        "promptVersion": "-",
+        "settings": {
+          "maxLongSide": 3000
+        },
+        "latencyMs": 16,
+        "attempts": 1
+      },
+      "transcribe": {
+        "model": "gemini-3.8-flash",
+        "promptVersion": "v1",
+        "settings": {
+          "thinking": "medium",
+          "mediaResolution": "high"
+        },
+        "latencyMs": 12062,
+        "attempts": 2,
+        "usage": {
+          "promptTokens": 1389,
+          "outputTokens": 440,
+          "thoughtsTokens": 1759,
+          "totalTokens": 3588
+        }
+      },
+      "modernize": {
+        "model": "gemini-3.8-flash",
+        "promptVersion": "v1",
+        "settings": {
+          "thinking": "low",
+          "mediaResolution": null
+        },
+        "latencyMs": 3329,
+        "attempts": 1,
+        "usage": {
+          "promptTokens": 431,
+          "outputTokens": 824,
+          "totalTokens": 1255
+        }
+      },
+      "annotate": {
+        "model": "gemini-3.5-flash-lite",
+        "promptVersion": "v1",
+        "settings": {
+          "thinking": "medium",
+          "mediaResolution": null,
+          "fallbackFrom": "gemini-3.8-flash"
+        },
+        "latencyMs": 5130,
+        "attempts": 1,
+        "usage": {
+          "promptTokens": 414,
+          "outputTokens": 563,
+          "thoughtsTokens": 1101,
+          "totalTokens": 2078
+        }
+      }
+    },
+    "errors": {},
+    "totalMs": 23450
+  }
+}

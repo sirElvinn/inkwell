@@ -1,0 +1,418 @@
+{
+  "slug": "gw-1780-12-08-lafayette",
+  "title": "Washington introduces Lafayette (1780)",
+  "imageSha256": "184da994c148822725d980bdc80f0307e7e22acb50e6b36d30d8af561450ad96",
+  "pipelineVersion": "v1",
+  "frozenAt": "2026-09-26T19:13:00.623Z",
+  "transcription": {
+    "not_a_manuscript": false,
+    "lines": [
+      {
+        "n": 1,
+        "text": "New Windsor. Decr 28th 1780."
+      },
+      {
+        "n": 2,
+        "text": "D Sir;"
+      },
+      {
+        "n": 3,
+        "text": "I have the pleasure of introdu"
+      },
+      {
+        "n": 4,
+        "text": "cing to your acquaintance the Marquis de la"
+      },
+      {
+        "n": 5,
+        "text": "Fayette a Majr Genl. and as an officr of rank in those of France, in the American Army, his"
+      },
+      {
+        "n": 6,
+        "text": "family, fortune & illustrious connexions in"
+      },
+      {
+        "n": 7,
+        "text": "France are alone sufficient to entitle him to our"
+      },
+      {
+        "n": 8,
+        "text": "highest respect, but when the obligation which"
+      },
+      {
+        "n": 9,
+        "text": "America is under to him for his"
+      },
+      {
+        "n": 10,
+        "text": "early attachment to her rights – his great Zeal"
+      },
+      {
+        "n": 11,
+        "text": "& powerful support of her cause are known"
+      },
+      {
+        "n": 12,
+        "text": "I am persuaded it will give you pleasure"
+      },
+      {
+        "n": 13,
+        "text": "to show him every civility in your power."
+      },
+      {
+        "n": 14,
+        "text": "It is probable that he may be accom"
+      },
+      {
+        "n": 15,
+        "text": "panied by his Brother in law the Count de"
+      },
+      {
+        "n": 16,
+        "text": "Noailles, & Count de Damas, two Gentn. of fami"
+      },
+      {
+        "n": 17,
+        "text": "ly, fortune & rank in the French Army at"
+      },
+      {
+        "n": 18,
+        "text": "Rhode Island, whose Zeal to serve as marins leads them to make"
+      },
+      {
+        "n": 19,
+        "text": "a Southern Campaign this winter, if they"
+      },
+      {
+        "n": 20,
+        "text": "can obtain permission of the Count de Rochambeau"
+      },
+      {
+        "n": 21,
+        "text": "Commanding the French Army at Rhode Island"
+      },
+      {
+        "n": 22,
+        "text": "– Should this event take place I beg leave"
+      },
+      {
+        "n": 23,
+        "text": "to recommend them also to your attention."
+      },
+      {
+        "n": 24,
+        "text": "With much esteem & regard"
+      },
+      {
+        "n": 25,
+        "text": "I am D Sir"
+      },
+      {
+        "n": 26,
+        "text": "Yr. Most obedt. Servt"
+      },
+      {
+        "n": 27,
+        "text": "G Washington"
+      }
+    ],
+    "uncertain": [
+      {
+        "line": 18,
+        "reading": "marins",
+        "alternatives": [
+          "marines",
+          "mariners"
+        ],
+        "reason": "Abbreviated spelling with superscript"
+      }
+    ],
+    "notes": "Library of Congress stamp at top left, page number 235 at top right, docket number 159-63 at bottom left.",
+    "script_description": "Fluent 18th-century cursive secretary hand in dark brown ink."
+  },
+  "modernization": {
+    "modern_text": "New Windsor. Decr [?] 28th 1780. Dear Sir; I have the pleasure of introducing to your acquaintance the Marquis de la Fayette a Major General and as an officer of rank in those of France, in the American Army, his family, fortune & illustrious connexions in France are alone sufficient to entitle him to our highest respect, but when the obligation which America is under to him for his early attachment to her rights – his great Zeal & powerful support of her cause are known I am persuaded it will give you pleasure to show him every civility in your power. It is probable that he may be accompanied by his Brother in law the Count de Noailles, & Count de Damas, two Gentlemen of family, fortune & rank in the French Army at Rhode Island, whose Zeal to serve as marines [?] leads them to make a Southern Campaign this winter, if they can obtain permission of the Count de Rochambeau Commanding the French Army at Rhode Island – Should this event take place I beg leave to recommend them also to your attention. With much esteem & regard I am Dear Sir Your Most obedient Servant George Washington",
+    "plain_english": "Dear Sir, I am pleased to introduce the Marquis de la Fayette to you. He is a major general in the American army and an officer of high rank in France. His family, wealth, and famous connections in France deserve our highest respect. Furthermore, America owes him a great debt for his early support of our rights, his great enthusiasm, and his powerful backing of our cause, so I am sure you will be glad to show him every possible courtesy. He might be joined by his brother-in-law, the Count de Noailles, and the Count de Damas. They are well-born, wealthy, and high-ranking gentlemen in the French army at Rhode Island, and their eagerness to serve as marines leads them to join a southern campaign this winter, provided they get permission from Count de Rochambeau, who commands the French army in Rhode Island. If this happens, I ask that you also look out for them. With much esteem and regard, I am your most obedient servant, George Washington.",
+    "summary": "George Washington writes a letter of introduction for the Marquis de la Fayette, a major general in the American army, asking the recipient to treat him with great respect and civility. Washington also recommends two other French noblemen, the Count de Noailles and the Count de Damas, if they participate in a southern campaign during the winter.",
+    "glossary": [
+      {
+        "original": "Decr",
+        "modern": "December",
+        "category": "abbreviation",
+        "explanation": "An abbreviation for the month of December."
+      },
+      {
+        "original": "D",
+        "modern": "Dear",
+        "category": "abbreviation",
+        "explanation": "An abbreviation used in the salutation for the word Dear."
+      },
+      {
+        "original": "Majr Genl.",
+        "modern": "Major General",
+        "category": "abbreviation",
+        "explanation": "An abbreviation for the military rank of Major General."
+      },
+      {
+        "original": "officr",
+        "modern": "officer",
+        "category": "spelling",
+        "explanation": "An 18th-century spelling omitting letters from the modern spelling."
+      },
+      {
+        "original": "connexions",
+        "modern": "connections",
+        "category": "spelling",
+        "explanation": "An alternative historical spelling of connections using an 'x'."
+      },
+      {
+        "original": "Zeal",
+        "modern": "zeal",
+        "category": "spelling",
+        "explanation": "Capitalized mid-sentence in the 18th-century style to emphasize enthusiasm or fervor."
+      },
+      {
+        "original": "Gentn.",
+        "modern": "Gentlemen",
+        "category": "abbreviation",
+        "explanation": "An abbreviation for the word gentlemen."
+      },
+      {
+        "original": "marins",
+        "modern": "marines",
+        "category": "spelling",
+        "explanation": "A period spelling or abbreviation referring to naval soldiers."
+      },
+      {
+        "original": "Yr.",
+        "modern": "Your",
+        "category": "abbreviation",
+        "explanation": "An abbreviation for the possessive pronoun your."
+      },
+      {
+        "original": "obedt.",
+        "modern": "obedient",
+        "category": "abbreviation",
+        "explanation": "An abbreviation for the word obedient."
+      },
+      {
+        "original": "Servt",
+        "modern": "Servant",
+        "category": "abbreviation",
+        "explanation": "An abbreviation for the word servant used in letter closings."
+      }
+    ]
+  },
+  "annotations": {
+    "letter_metadata": {
+      "author": {
+        "value": "George Washington",
+        "confidence": "high",
+        "evidence": "G Washington"
+      },
+      "recipient": {
+        "value": null,
+        "confidence": "low",
+        "evidence": "D Sir"
+      },
+      "date": {
+        "value": "December 28, 1780",
+        "confidence": "high",
+        "evidence": "Decr 28th 1780."
+      },
+      "place": {
+        "value": "New Windsor, New York",
+        "confidence": "high",
+        "evidence": "New Windsor."
+      }
+    },
+    "entities": [
+      {
+        "surface": "New Windsor",
+        "canonical_name": "New Windsor, New York",
+        "type": "place",
+        "description": "A town in New York where Washington's army sometimes encamped during the Revolutionary War.",
+        "confidence": "high",
+        "lines": [
+          1
+        ]
+      },
+      {
+        "surface": "Marquis de la Fayette",
+        "canonical_name": "Gilbert du Motier, Marquis de Lafayette",
+        "type": "person",
+        "description": "A French aristocrat and military officer who volunteered to serve in the Continental Army during the American Revolution.",
+        "confidence": "high",
+        "lines": [
+          4,
+          5
+        ]
+      },
+      {
+        "surface": "France",
+        "canonical_name": "France",
+        "type": "place",
+        "description": "The European nation allied with the United States against Great Britain during the Revolutionary War.",
+        "confidence": "high",
+        "lines": [
+          5,
+          7
+        ]
+      },
+      {
+        "surface": "American Army",
+        "canonical_name": "Continental Army",
+        "type": "organization",
+        "description": "The military force established by the Thirteen Colonies to fight the British forces.",
+        "confidence": "high",
+        "lines": [
+          5
+        ]
+      },
+      {
+        "surface": "America",
+        "canonical_name": "United States",
+        "type": "place",
+        "description": "The insurgent colonies fighting for independence from Great Britain.",
+        "confidence": "high",
+        "lines": [
+          9
+        ]
+      },
+      {
+        "surface": "Brother in law the Count de Noailles",
+        "canonical_name": "Louis Marie de Noailles, Vicomte de Noailles",
+        "type": "person",
+        "description": "A French nobleman and military officer, brother-in-law to Lafayette.",
+        "confidence": "high",
+        "lines": [
+          15,
+          16
+        ]
+      },
+      {
+        "surface": "Count de Damas",
+        "canonical_name": "Charles de Damas",
+        "type": "person",
+        "description": "A French nobleman and officer serving in the French forces in America.",
+        "confidence": "medium",
+        "lines": [
+          16
+        ]
+      },
+      {
+        "surface": "Rhode Island",
+        "canonical_name": "Rhode Island",
+        "type": "place",
+        "description": "A state in New England where French forces under Rochambeau were stationed.",
+        "confidence": "high",
+        "lines": [
+          18,
+          21
+        ]
+      },
+      {
+        "surface": "Count de Rochambeau",
+        "canonical_name": "Jean-Baptiste Donatien de Vimeur, comte de Rochambeau",
+        "type": "person",
+        "description": "The commander of the French expeditionary force sent to aid the American revolutionaries.",
+        "confidence": "high",
+        "lines": [
+          20
+        ]
+      },
+      {
+        "surface": "French Army",
+        "canonical_name": "French Expeditionary Force",
+        "type": "organization",
+        "description": "The military forces sent by King Louis XVI to support the American Continental Army.",
+        "confidence": "high",
+        "lines": [
+          17,
+          21
+        ]
+      },
+      {
+        "surface": "G Washington",
+        "canonical_name": "George Washington",
+        "type": "person",
+        "description": "Commander-in-Chief of the Continental Army during the American Revolutionary War.",
+        "confidence": "high",
+        "lines": [
+          27
+        ]
+      }
+    ],
+    "context": "Written in late December 1780 from New Windsor, George Washington introduces the Marquis de Lafayette and several other French officers to an unnamed recipient. At this stage in the American Revolutionary War, the alliance with France was crucial, and French forces under Rochambeau were stationed in Rhode Island, coordinating potential movements with Washington's army.",
+    "why_it_matters": "This letter highlights the international diplomacy and personal relationships that sustained the Franco-American alliance, which was indispensable to achieving American independence.",
+    "discussion_questions": [
+      "How does Washington leverage both Lafayette's personal status and his military contributions to encourage the recipient to welcome him?",
+      "What does the mention of the Count de Noailles and Count de Damas seeking a southern campaign reveal about the mobility and coordination of French forces in America?",
+      "Why would letters of introduction like this one be vital for military leaders and diplomats during the 18th century?"
+    ]
+  },
+  "runInfo": {
+    "stages": {
+      "preprocess": {
+        "model": "sharp",
+        "promptVersion": "-",
+        "settings": {
+          "maxLongSide": 3000
+        },
+        "latencyMs": 25,
+        "attempts": 1
+      },
+      "transcribe": {
+        "model": "gemini-3.5-flash-lite",
+        "promptVersion": "v1",
+        "settings": {
+          "thinking": "medium",
+          "mediaResolution": "high",
+          "fallbackFrom": "gemini-3.8-flash"
+        },
+        "latencyMs": 9512,
+        "attempts": 1,
+        "usage": {
+          "promptTokens": 1408,
+          "outputTokens": 979,
+          "thoughtsTokens": 2314,
+          "totalTokens": 4701
+        }
+      },
+      "modernize": {
+        "model": "gemini-3.5-flash-lite",
+        "promptVersion": "v1",
+        "settings": {
+          "thinking": "low",
+          "mediaResolution": null,
+          "fallbackFrom": "gemini-3.8-flash"
+        },
+        "latencyMs": 3313,
+        "attempts": 1,
+        "usage": {
+          "promptTokens": 630,
+          "outputTokens": 1086,
+          "totalTokens": 1716
+        }
+      },
+      "annotate": {
+        "model": "gemini-3.5-flash-lite",
+        "promptVersion": "v1",
+        "settings": {
+          "thinking": "medium",
+          "mediaResolution": null,
+          "fallbackFrom": "gemini-3.8-flash"
+        },
+        "latencyMs": 4080,
+        "attempts": 1,
+        "usage": {
+          "promptTokens": 613,
+          "outputTokens": 1292,
+          "totalTokens": 1905
+        }
+      }
+    },
+    "errors": {},
+    "totalMs": 22227
+  }
+}

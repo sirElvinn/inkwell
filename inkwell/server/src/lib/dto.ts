@@ -11,7 +11,14 @@ function parseOrNull<S extends z.ZodType>(schema: S, value: unknown): z.infer<S>
   return parsed.success ? parsed.data : null;
 }
 
+/** Wikipedia search link for an identified entity. Founders Online's search URL format couldn't be
+ * verified (the site blocks automated requests), so we don't link there yet. */
+function wikipediaSearch(name: string | null): string | null {
+  return name ? `https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(name)}` : null;
+}
+
 export function toDocumentDTO(doc: Document): DocumentDTO {
+  const annotations = parseOrNull(AnnotationResult, doc.annotations);
   return DocumentDTO.parse({
     id: doc.id,
     createdAt: doc.createdAt.toISOString(),
@@ -25,7 +32,8 @@ export function toDocumentDTO(doc: Document): DocumentDTO {
     pipelineVersion: doc.pipelineVersion,
     transcription: parseOrNull(TranscriptionResult, doc.transcription),
     modernization: parseOrNull(ModernizationResult, doc.modernization),
-    annotations: parseOrNull(AnnotationResult, doc.annotations),
+    annotations,
     runInfo: parseOrNull(RunInfo, doc.runInfo),
+    entityLinks: (annotations?.entities ?? []).map((e) => ({ wikipedia: wikipediaSearch(e.canonical_name) })),
   });
 }

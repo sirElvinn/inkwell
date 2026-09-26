@@ -120,7 +120,7 @@ export type RunInfo = z.infer<typeof RunInfo>;
 export const DocumentStatus = z.enum(["QUEUED", "PREPROCESSING", "TRANSCRIBING", "ENRICHING", "DONE", "ERROR"]);
 export type DocumentStatus = z.infer<typeof DocumentStatus>;
 
-export const DocumentSource = z.enum(["upload", "example"]);
+export const DocumentSource = z.enum(["upload", "example", "seed"]);
 
 export const DocumentDTO = z.object({
   id: z.string(),
@@ -137,6 +137,8 @@ export const DocumentDTO = z.object({
   modernization: ModernizationResult.nullable(),
   annotations: AnnotationResult.nullable(),
   runInfo: RunInfo.nullable(),
+  /** Server-built reference links, one per annotations.entities item (same order). */
+  entityLinks: z.array(z.object({ wikipedia: z.string().nullable() })),
 });
 export type DocumentDTO = z.infer<typeof DocumentDTO>;
 

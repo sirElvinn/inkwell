@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "tj-1779-07-williamsburg",
+    "title": "Jefferson to Washington, from Williamsburg (1779)",
+    "image": "tj-1779-07-williamsburg.jpg",
+    "locUrl": "https://www.loc.gov/item/mtjbib000361/",
+    "note": "Short letter asking Washington to forward mail into British-held New York. Marked as a copy."
+  },
+  {
+    "slug": "gw-1780-12-08-lafayette",
+    "title": "Washington introduces Lafayette (1780)",
+    "image": "gw-1780-12-08-lafayette.jpg",
+    "locUrl": "https://tile.loc.gov/storage-services/master/mss/mgw/mgw4/073/0300/0300.jpg",
+    "note": "Letter of introduction from New Windsor with strike-throughs and interlinear insertions."
+  },
+  {
+    "slug": "tj-1781-09-30-short",
+    "title": "Jefferson introduces William Short (1781)",
+    "image": "tj-1781-09-30-short.jpg",
+    "locUrl": "https://www.loc.gov/item/mtjbib000075/",
+    "note": "Introduction to Robert Morris; another letter is written upside down across the bottom of the sheet."
+  }
+]

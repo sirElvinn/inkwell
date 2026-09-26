@@ -65,7 +65,7 @@ export function Reader() {
           <ImageViewer src={doc.imageUrl} alt="The uploaded letter" />
         </div>
         <div>
-          <TranscriptTabs doc={doc} />
+          <TranscriptTabs doc={doc} onRetry={onRetry} />
         </div>
       </div>
 

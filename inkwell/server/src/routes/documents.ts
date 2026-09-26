@@ -10,7 +10,7 @@ import { HttpError } from "../lib/errors";
 import { sha256 } from "../lib/hash";
 import { saveUpload, uploadUrl } from "../lib/storage";
 import { readImageFormat } from "../pipeline/preprocess";
-import { startPipeline } from "../pipeline/run";
+import { canRetry, startPipeline } from "../pipeline/run";
 
 export const documentsRouter = Router();
 
@@ -86,12 +86,12 @@ documentsRouter.get("/:id", async (req, res) => {
   res.json(toDocumentDTO(doc));
 });
 
-// POST /api/documents/:id/retry: re-run a failed document from the start.
+// POST /api/documents/:id/retry: re-run a failed document, or only its missing stages.
 documentsRouter.post("/:id/retry", uploadLimiter, async (req, res) => {
   const { id } = IdParam.parse(req.params);
   const doc = await prisma.document.findUnique({ where: { id } });
   if (!doc) throw new HttpError(404, "not_found", "We couldn't find that letter.");
-  if (doc.status !== "ERROR") throw new HttpError(409, "not_failed", "This letter isn't in a failed state.");
+  if (!canRetry(doc)) throw new HttpError(409, "not_retryable", "This letter doesn't need a retry.");
   await prisma.document.update({ where: { id }, data: { status: "QUEUED", errorMessage: null } });
   startPipeline(id);
   res.status(202).json(CreateDocumentResponse.parse({ id, status: "QUEUED" }));

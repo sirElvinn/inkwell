@@ -22,18 +22,30 @@ Running log for Inkwell at &hacks XII (hacking 12:00 PM Sat Sep 26 → submissio
 - Client: Home (camera button + dropzone + example gallery), Reader (1.5 s polling hook, progress steps with aria-live, zoomable image that collapses on phones, tabs with keyboard nav, As Written with line numbers and uncertain-word tooltips marked by underline + "?"), retry button, footer with model + time.
 - **Verified end to end** on a real LOC scan (Washington to ?, New Windsor, Dec. 8, 1780, `mgw4/073/0300`): DONE in ~50 s, 27 lines, 1 uncertain reading; re-upload returned the cached doc (200, `cached: true`). Error paths checked: no file, non-image, unknown id, missing static file (404), bad JSON (400), not-a-manuscript image.
 
+### P2: modernize ∥ annotate, all Reader tabs, examples
+- `pipeline/modernize.ts` (thinking low) and `pipeline/annotate.ts` (thinking medium) share `textStage.ts`: GEMINI_MODEL_TEXT with the same fallback model. Prompts v1 from the spec, input = numbered lines + uncertain readings.
+- `run.ts`: modernize and annotate run in parallel (`Promise.allSettled`), each saves the moment it finishes; a failed enrichment stage leaves the doc DONE with a per-stage message in `runInfo.errors`. Retry re-runs only missing stages.
+- DTO now carries server-built Wikipedia search links per entity (Founders Online search URL not verifiable → not linked).
+- Reader tabs: Modern English and Plain English (summary on top) with tappable people/places that open an EntityCard inline; People & Places (metadata with confidence + evidence, context, why it matters, entity cards grouped by type, discussion questions); Language Lens (glossary grouped by category with counts). Per-tab skeletons while running and friendly failure + retry.
+- Examples: `server/src/seed/examples.json` + images; `npm run seed` runs the real pipeline and freezes results to `server/src/seed/results/*.json`; startup loads them with fixed ids `example-<slug>` (no API calls, race-safe).
+- Verified: all three examples frozen and served; entity matching found all 12 entities in the Lafayette letter's modern text.
+
 ## Next
-- P2: modernize ∥ annotate, remaining Reader tabs, entity cards, Language Lens, seed script with 3 examples.
+- P3: eval tooling (fetch ground truth, run, baseline), normalize + metrics + tests, Accuracy page.
+- Deploy: GitHub repo + DigitalOcean App Platform (`.do/app.yaml` is ready).
 - Deploy: GitHub repo + DigitalOcean App Platform (`.do/app.yaml` is ready).
 
 ## Blockers
 - **Deploy:** needs a GitHub repo and a DigitalOcean account (no `gh`/`doctl` on this machine).
 - **Git identity:** `user.name` not set; needed before the first commit.
 - **ElevenLabs quota:** free tier, 10,000 characters/month. Ask the MLH coach for credits.
-- **Example images + eval manifest:** not provided yet.
+- **Eval manifest:** not provided yet (10 pages minimum).
+- **Gemini free-tier rate limits:** during seeding `gemini-3.8-flash` returned 429s; the fallback model produced most example results (recorded per stage in runInfo).
 - **Gemini free tier:** `gemini-3.1-pro-preview` has a free-tier quota of 0 (429), so the Pro fallback and the `pro-high` eval config can't run without billing. `gemini-3.8-flash` returned 503 "high demand" repeatedly this afternoon.
 
 ## Decisions
+- **Examples chosen by the agent during the event** (no user-provided images yet): three lesser-known one-page LOC letters, including the Williamsburg letter (W&M tie-in). Frozen outputs were reviewed by eye: the Lafayette letter's date is misread as "28th" (page says 8th); the others read well. Replace or add examples by editing `examples.json` and re-running `npm run seed`.
+- Examples have fixed ids (`example-<slug>`) so demo links are stable and concurrent startups can't duplicate them (this happened once with random ids).
 - **Gemini SDK (`@google/genai` 2.24.0) vs spec §10.1:** structured output uses `responseMimeType` + `responseJsonSchema` (the spec's `responseFormat` is the Interactions API); thinking levels are `ThinkingLevel.*` enum values; timeout is `httpOptions.timeout`; `MediaResolution` has no ULTRA_HIGH value in this SDK, so the `flash-ultra` eval config needs a raw request or is dropped.
 - **Transcription fallback model is `GEMINI_MODEL_FALLBACK` (default `gemini-3.5-flash-lite`)**, not Pro, because Pro has no free-tier quota. It already rescued one real run when Flash was overloaded.
 - **Raised letters:** with prompt v1 the model writes them with a dot (`D.r Sir`, `Gen.l`). Loose normalization strips punctuation, so it doesn't affect loose CER; revisit after the first eval.
