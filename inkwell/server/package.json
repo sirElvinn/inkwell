@@ -9,7 +9,10 @@
     "start": "prisma migrate deploy && tsx src/index.ts",
     "typecheck": "tsc --noEmit",
     "db:migrate": "prisma migrate dev",
-    "seed": "tsx src/seed/seed.ts"
+    "seed": "tsx src/seed/seed.ts",
+    "eval:fetch": "tsx src/eval/fetchGroundTruth.ts",
+    "eval:run": "tsx src/eval/runEval.ts",
+    "eval:baseline": "tsx src/eval/baseline.ts"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
@@ -33,6 +36,7 @@
     "pino": "^10.3.1",
     "pino-http": "^11.0.0",
     "sharp": "^0.35.4",
+    "tesseract.js": "^7.0.0",
     "tsx": "^4.23.15",
     "zod": "^4.6.5"
   }

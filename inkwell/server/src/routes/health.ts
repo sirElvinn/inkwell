@@ -14,6 +14,6 @@ healthRouter.get("/", async (_req, res) => {
   } catch {
     db = false;
   }
-  const body: HealthResponse = { ok: db, db, gemini: !!env.GEMINI_API_KEY, elevenlabs: !!env.ELEVENLABS_API_KEY };
+  const body: HealthResponse = { ok: db, db, gemini: !!env.GEMINI_API_KEY, elevenlabs: !!env.ELEVENLABS_API_KEY, demoMode: env.DEMO_MODE };
   res.status(db ? 200 : 503).json(body);
 });

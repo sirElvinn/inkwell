@@ -11,6 +11,7 @@ import { recoverInterruptedDocuments } from "./pipeline/run";
 import { loadExamples } from "./seed/examples";
 import { audioRouter } from "./routes/audio";
 import { documentsRouter } from "./routes/documents";
+import { evalRouter } from "./routes/eval";
 import { healthRouter } from "./routes/health";
 import { AUDIO_DIR, UPLOAD_DIR } from "./lib/storage";
 
@@ -36,6 +37,7 @@ app.use(pinoHttp({ logger, autoLogging: { ignore: (req) => req.url === "/api/hea
 app.use("/api/health", healthRouter);
 app.use("/api/documents/:id/audio", audioRouter);
 app.use("/api/documents", documentsRouter);
+app.use("/api/eval", evalRouter);
 app.use("/api", notFound);
 
 // Uploaded images (originals + derivatives). Filenames are content hashes, so they can be cached.

@@ -1,0 +1,1 @@
+{ "name": "flash-gray", "label": "Gemini 3.8 Flash · grayscale + normalize", "kind": "gemini", "model": "gemini-3.8-flash", "thinking": "medium", "mediaResolution": "high", "preprocess": "grayscale" }

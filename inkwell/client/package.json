@@ -20,11 +20,13 @@
   },
   "dependencies": {
     "@inkwell/shared": "^0.0.0",
+    "diff": "^9.0.0",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "react-dropzone": "^20.1.2",
     "react-router": "^8.4.0",
     "react-zoom-pan-pinch": "^4.2.0",
+    "recharts": "^3.10.1",
     "zod": "^4.6.5"
   }
 }

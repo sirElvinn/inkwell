@@ -13,7 +13,10 @@
     "start": "npm run start -w server",
     "test": "vitest run",
     "typecheck": "npm run typecheck -w shared && npm run typecheck -w server && npm run typecheck -w client",
-    "seed": "npm run seed -w server --"
+    "seed": "npm run seed -w server --",
+    "eval:fetch": "npm run eval:fetch -w server --",
+    "eval:run": "npm run eval:run -w server --",
+    "eval:baseline": "npm run eval:baseline -w server --"
   },
   "engines": {
     "node": "24.x"
@@ -32,6 +35,7 @@
     "@prisma/engines@7.10.0": true,
     "fsevents": false,
     "@google/genai": false,
-    "protobufjs": false
+    "protobufjs": false,
+    "tesseract.js": false
   }
 }

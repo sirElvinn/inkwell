@@ -11,6 +11,8 @@ export const HealthResponse = z.object({
   db: z.boolean(),
   gemini: z.boolean(),
   elevenlabs: z.boolean(),
+  /** DEMO_MODE: only already-processed letters and cached audio are served. */
+  demoMode: z.boolean(),
 });
 export type HealthResponse = z.infer<typeof HealthResponse>;
 
@@ -185,3 +187,72 @@ export const AudioResponse = z.object({
   voiceLabel: z.string(),
 });
 export type AudioResponse = z.infer<typeof AudioResponse>;
+
+// ---------- evaluation (spec §12) ----------
+
+export const ManifestEntry = z.object({
+  id: z.string().regex(/^[\w-]+$/),
+  image: z.string(),
+  foundersId: z.string(),
+  locUrl: z.string(),
+  sourceNote: z.string(),
+  hand: z.enum(["author", "clerk", "unknown"]),
+  famous: z.boolean(),
+  trimmed: z.boolean(),
+  notes: z.string().default(""),
+});
+export type ManifestEntry = z.infer<typeof ManifestEntry>;
+
+export const EvalConfig = z.object({
+  name: z.string().regex(/^[\w-]+$/),
+  label: z.string(),
+  kind: z.enum(["gemini", "tesseract"]),
+  model: z.string().optional(),
+  thinking: z.enum(["low", "medium", "high"]).optional(),
+  mediaResolution: z.enum(["low", "medium", "high"]).optional(),
+  preprocess: z.enum(["default", "grayscale"]).default("default"),
+});
+export type EvalConfig = z.infer<typeof EvalConfig>;
+
+const Rates = z.object({ cer: z.number(), wer: z.number() });
+
+export const EvalSample = z.object({
+  id: z.string(),
+  famous: z.boolean(),
+  hand: z.string(),
+  strict: Rates,
+  loose: Rates,
+  latencyMs: z.number(),
+  /** Model output (lines joined with \n) and the reference, both before normalization, for the diff view. */
+  prediction: z.string(),
+  reference: z.string(),
+  model: z.string().optional(),
+  error: z.string().optional(),
+});
+export type EvalSample = z.infer<typeof EvalSample>;
+
+const Stats = z.object({ mean: z.number(), median: z.number(), min: z.number(), max: z.number() });
+
+export const EvalSummary = z.object({
+  n: z.number().int(),
+  failed: z.number().int(),
+  strict: z.object({ cer: Stats, wer: Stats }),
+  loose: z.object({ cer: Stats, wer: Stats }),
+  /** Loose CER mean for famous vs. lesser-known letters (contamination check). */
+  looseCerFamous: z.number().nullable(),
+  looseCerLesserKnown: z.number().nullable(),
+  meanLatencyMs: z.number(),
+});
+export type EvalSummary = z.infer<typeof EvalSummary>;
+
+export const EvalRunFile = z.object({
+  id: z.string(),
+  createdAt: z.string(),
+  config: EvalConfig,
+  summary: EvalSummary,
+  samples: z.array(EvalSample),
+});
+export type EvalRunFile = z.infer<typeof EvalRunFile>;
+
+export const EvalRunSummary = EvalRunFile.omit({ samples: true });
+export type EvalRunSummary = z.infer<typeof EvalRunSummary>;

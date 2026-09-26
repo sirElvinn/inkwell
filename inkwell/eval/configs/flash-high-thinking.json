@@ -1,0 +1,1 @@
+{ "name": "flash-high-thinking", "label": "Gemini 3.8 Flash · high res · high thinking", "kind": "gemini", "model": "gemini-3.8-flash", "thinking": "high", "mediaResolution": "high", "preprocess": "default" }

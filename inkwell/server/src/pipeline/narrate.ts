@@ -66,6 +66,7 @@ const inFlight = new Map<string, Promise<AudioResponse>>();
 export async function getOrCreateNarration(id: string, variant: NarrationVariant): Promise<AudioResponse> {
   const { narration, voiceId, modelId, textSha256, cached } = await resolveClip(id, variant);
   if (cached) return toResponse(cached);
+  if (env.DEMO_MODE) throw new HttpError(503, "demo_mode", "Narration for this letter isn't available in offline demo mode.");
   if (!voiceId) throw new HttpError(503, "narration_not_configured", "Narration isn't configured on this server.");
 
   const key = `${id}:${variant}:${textSha256}`;

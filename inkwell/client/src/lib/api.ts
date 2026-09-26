@@ -1,6 +1,6 @@
 // Typed fetch helpers. Every response is validated with the shared zod schemas,
 // so a server/client mismatch fails loudly instead of rendering garbage.
-import { ApiError, AudioResponse, CreateDocumentResponse, DocumentDTO, DocumentSummary, HealthResponse, type NarrationVariant } from "@inkwell/shared";
+import { ApiError, AudioResponse, CreateDocumentResponse, DocumentDTO, DocumentSummary, EvalRunFile, EvalRunSummary, HealthResponse, type NarrationVariant } from "@inkwell/shared";
 import { z } from "zod";
 
 export class ApiRequestError extends Error {
@@ -29,6 +29,8 @@ export const api = {
   health: () => request(HealthResponse, "/api/health"),
   getDocument: (id: string) => request(DocumentDTO, `/api/documents/${encodeURIComponent(id)}`),
   listExamples: () => request(z.array(DocumentSummary), "/api/documents?source=example"),
+  evalRuns: () => request(z.array(EvalRunSummary), "/api/eval/runs"),
+  evalRun: (id: string) => request(EvalRunFile, `/api/eval/runs/${encodeURIComponent(id)}`),
   retryDocument: (id: string) =>
     request(CreateDocumentResponse, `/api/documents/${encodeURIComponent(id)}/retry`, { method: "POST" }),
   narrate: (id: string, variant: NarrationVariant) =>

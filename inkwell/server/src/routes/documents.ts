@@ -68,6 +68,11 @@ documentsRouter.post("/", uploadLimiter, receiveImage(), async (req, res) => {
     return;
   }
 
+  // Demo mode (AI services down): serve what we've already processed, never pretend to process a new image.
+  if (env.DEMO_MODE) {
+    throw new HttpError(503, "demo_mode", "Inkwell is in offline demo mode right now, so it can only show letters it has already read. Try one of the examples.");
+  }
+
   const originalPath = await saveUpload(`${imageSha256}.${EXTENSION[format]}`, file.buffer);
   const doc = await prisma.document.create({
     data: { source: "upload", imageSha256, originalPath, status: "QUEUED", pipelineVersion },
@@ -92,6 +97,7 @@ documentsRouter.post("/:id/retry", uploadLimiter, async (req, res) => {
   const doc = await prisma.document.findUnique({ where: { id } });
   if (!doc) throw new HttpError(404, "not_found", "We couldn't find that letter.");
   if (!canRetry(doc)) throw new HttpError(409, "not_retryable", "This letter doesn't need a retry.");
+  if (env.DEMO_MODE) throw new HttpError(503, "demo_mode", "Retrying isn't available in offline demo mode.");
   await prisma.document.update({ where: { id }, data: { status: "QUEUED", errorMessage: null } });
   startPipeline(id);
   res.status(202).json(CreateDocumentResponse.parse({ id, status: "QUEUED" }));
