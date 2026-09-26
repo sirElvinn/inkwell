@@ -1,0 +1,2 @@
+image,scale_source,um_per_px,scale_check,sample_type,sample_type_source,file_name_hint,backend,n_frustules,n_whole_in_frame,n_intact,n_cracked,n_fragmented,median_length_um,n_pores,pore_note,seconds,n_Thaps,n_Didymo,n_unknown_species
+2022-12-02_ThapsSamples_ASL\Thaps_A2_3kx_10kV_ASL_q00.tif,hitachi_txt,0.03307291666666667,scale-bar ticks agree within 0.1%,Thalassiosira pseudonana,chosen by user,Thalassiosira pseudonana,circles,18,15,15,0,0,3.433,0,not measured: smallest expected pores (12 nm) are only 0.4 px at this magnification,1.2,18,0,0

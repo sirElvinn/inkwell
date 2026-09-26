@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diatom SEM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <p class="eyebrow">Nano &amp; Biomaterials Lab</p>
+        <h1>Diatom SEM</h1>
+      </div>
+    </div>
+    <p class="top-note" id="session-note">Local session</p>
+  </header>
+
+  <div class="layout">
+    <aside class="rail">
+      <form class="intake" id="intake">
+        <div class="intake-head">
+          <h2>New image</h2>
+          <p>Outline shells, then measure size, species, and damage.</p>
+        </div>
+        <label class="drop" id="drop">
+          <input type="file" id="file" accept="image/jpeg,image/png,image/tiff,.jpg,.jpeg,.png,.tif,.tiff">
+          <span class="drop-title">Drop an SEM image</span>
+          <span class="drop-hint">JPG, PNG, or TIFF</span>
+        </label>
+        <label class="sidecar">
+          Hitachi .txt, if the microscope wrote one
+          <input type="file" id="sidecar" accept=".txt,text/plain">
+        </label>
+        <div class="fields">
+          <label>
+            Segmentation
+            <select id="backend">
+              <option value="fastsam" selected>FastSAM</option>
+              <option value="sam">MobileSAM</option>
+              <option value="circles">Circles (round shells)</option>
+            </select>
+          </label>
+          <label>
+            Sample
+            <select id="sample-type">
+              <option value="auto" selected>Predict from image</option>
+              <option value="thaps">Thalassiosira</option>
+              <option value="didymo">Didymosphenia</option>
+              <option value="mixed">Mixed / unknown</option>
+            </select>
+          </label>
+        </div>
+        <button type="submit" class="analyze" id="analyze" disabled>Analyze</button>
+        <p class="status" id="status" role="status"></p>
+      </form>
+
+      <section class="library" aria-labelledby="library-title">
+        <div class="library-head">
+          <h2 id="library-title">Processed</h2>
+          <span id="run-count"></span>
+        </div>
+        <ul class="runs" id="runs"></ul>
+      </section>
+    </aside>
+
+    <main class="workspace">
+      <section class="summary" id="summary" aria-live="polite"></section>
+
+      <section class="stage">
+        <div class="frame-wrap">
+          <div class="frame" id="frame">
+            <img id="overlay" alt="Segmentation overlay">
+            <svg id="marker" aria-hidden="true"></svg>
+            <div class="scale" id="scale" hidden>
+              <span class="scale-bar" id="scale-bar"></span>
+              <span class="scale-label" id="scale-label"></span>
+            </div>
+          </div>
+        </div>
+        <aside class="detail" id="detail"></aside>
+      </section>
+
+      <section class="sheet" aria-labelledby="sheet-title">
+        <div class="sheet-head">
+          <h2 id="sheet-title">Shells</h2>
+          <div class="filters" id="filters" role="tablist" aria-label="Damage"></div>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th><button type="button" data-sort="frustule_id">#</button></th>
+                <th><button type="button" data-sort="damage">Damage</button></th>
+                <th><button type="button" data-sort="species">Species</button></th>
+                <th><button type="button" data-sort="length_um">Length</button></th>
+                <th><button type="button" data-sort="width_um">Width</button></th>
+                <th><button type="button" data-sort="area_um2">Area</button></th>
+                <th><button type="button" data-sort="view">View</button></th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+        <p class="empty" id="empty" hidden>No shells in this group.</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

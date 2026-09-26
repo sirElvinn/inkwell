@@ -1,0 +1,10 @@
+numpy
+pillow
+scipy
+scikit-image
+scikit-learn     # sample-type classifier (retrain with sample_type.py if versions differ)
+opencv-python
+pandas
+openpyxl
+pytesseract      # only for the 5 screenshots without metadata (also install the Tesseract app)
+ultralytics      # FastSAM / MobileSAM backends (pulls in PyTorch)
