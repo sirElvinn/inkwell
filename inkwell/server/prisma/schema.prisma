@@ -1,0 +1,71 @@
+// Inkwell data model (spec Section 8).
+// SQLite for now (no hosted Postgres URL yet). To move to Postgres: change the provider,
+// swap the driver adapter in src/lib/db.ts, and create a fresh migration.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Document {
+  id              String       @id @default(cuid())
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+  source          String // "upload" | "example"
+  title           String?
+  imageSha256     String
+  originalPath    String
+  derivedPath     String?
+  width           Int?
+  height          Int?
+  status          String // QUEUED | PREPROCESSING | TRANSCRIBING | ENRICHING | DONE | ERROR
+  errorMessage    String?
+  pipelineVersion String
+  transcription   Json? // TranscriptionResult (shared/src/schemas.ts)
+  modernization   Json? // ModernizationResult
+  annotations     Json? // AnnotationResult
+  runInfo         Json? // per stage: model, promptVersion, settings, latencyMs, token usage
+  audioClips      AudioClip[]
+  corrections     Correction[]
+
+  @@index([imageSha256, pipelineVersion])
+}
+
+model AudioClip {
+  id          String   @id @default(cuid())
+  createdAt   DateTime @default(now())
+  documentId  String
+  document    Document @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  variant     String // "modern" | "plain"
+  textSha256  String
+  voiceId     String
+  modelId     String
+  audioPath   String
+  durationSec Float
+  words       Json // [{ word, start, end, charStart, charEnd }]
+
+  @@unique([documentId, variant, textSha256, voiceId, modelId])
+}
+
+model Correction {
+  id         String   @id @default(cuid())
+  createdAt  DateTime @default(now())
+  documentId String
+  document   Document @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  lineNumber Int
+  before     String
+  after      String
+}
+
+model EvalRun {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  name      String
+  config    Json
+  summary   Json // n, mean/median/min/max CER & WER (strict + loose), mean latency
+  samples   Json // per-sample metrics + prediction text
+}

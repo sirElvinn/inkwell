@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Parchment-and-ink palette (spec Section 11). Text colors checked for WCAG AA on the background. */
+@theme {
+  --color-parchment: #f7f1e3;
+  --color-parchment-deep: #efe5cf;
+  --color-card: #fffcf5;
+  --color-ink: #1f2a44;
+  --color-ink-soft: #4a5570;
+  --color-sepia: #8b5e34;
+  --color-sepia-dark: #6f4a28;
+  --color-amber: #f2c94c;
+  --color-rule: #e2d5b8;
+  --font-display: "IM Fell English", Georgia, serif;
+  --font-serif: "Source Serif 4", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  html { background: var(--color-parchment); color: var(--color-ink); }
+  body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+  :focus-visible { outline: 3px solid var(--color-sepia); outline-offset: 2px; }
+}

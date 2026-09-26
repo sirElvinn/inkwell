@@ -1,0 +1,61 @@
+{
+ "letter": {
+  "writer": "Capt. Josiah Harwood (fictional demo writer)",
+  "recipient": "Sarah Harwood, his wife",
+  "date": "12 January 1778",
+  "place": "Valley Forge, Pennsylvania",
+  "setting": "The Continental Army camped at Valley Forge from December 1777 to June 1778, after the British took Philadelphia. Soldiers built log huts and faced severe shortages of food, clothing and shoes through the winter."
+ },
+ "entities": [
+  {
+   "name": "Gen^l^ Waſhington",
+   "canonical_name": "George Washington",
+   "type": "person",
+   "who_or_what": "Commander in chief of the Continental Army.",
+   "role_in_letter": "He pressed Congress for supplies for the starving, poorly clothed army.",
+   "modern_location": null,
+   "confidence": "high"
+  },
+  {
+   "name": "Congreſs",
+   "canonical_name": "Continental Congress",
+   "type": "organization",
+   "who_or_what": "The governing body of the United States during the Revolution.",
+   "role_in_letter": "The writer hopes Congress will send relief to the army.",
+   "modern_location": null,
+   "confidence": "high"
+  },
+  {
+   "name": "Valley Forge",
+   "canonical_name": "Valley Forge",
+   "type": "place",
+   "who_or_what": "Site of the Continental Army's 1777–78 winter encampment.",
+   "role_in_letter": "Where the letter was written.",
+   "modern_location": "Valley Forge National Historical Park, Pennsylvania",
+   "confidence": "high"
+  },
+  {
+   "name": "Williamsburg",
+   "canonical_name": "Williamsburg",
+   "type": "place",
+   "who_or_what": "Capital of colonial Virginia until 1780.",
+   "role_in_letter": "The writer's home, where his family is.",
+   "modern_location": "Williamsburg, Virginia",
+   "confidence": "high"
+  },
+  {
+   "name": "M^r^ Blair",
+   "canonical_name": "Mr. Blair",
+   "type": "person",
+   "who_or_what": "Not identified.",
+   "role_in_letter": "Carried Sarah's letter to camp.",
+   "modern_location": null,
+   "confidence": "low"
+  }
+ ],
+ "questions": [
+  "What does the letter tell us about conditions for soldiers at Valley Forge?",
+  "Why might the writer mention that General Washington wrote to Congress?",
+  "How did letters travel in 1778, and what does 'by the hand of Mr. Blair' suggest?"
+ ]
+}

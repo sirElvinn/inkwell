@@ -1,0 +1,27 @@
+{
+ "lines": [
+  "Valley Forge Jan^y^ 12^th^ 1778",
+  "My dear Sarah",
+  "I rec^d^ yours of y^e^ 3^d^ Ult^o^ by the hand of M^r^ Blair, & it gave",
+  "me more comfort than I can well expreſs. We are hutted",
+  "here for y^e^ Winter, & the Men ſuffer much for want",
+  "of Shoes & Blankets. Gen^l^ Waſhington has wrote",
+  "to Congreſs in the ſtrongeſt terms, & we hope for",
+  "relief ere long. Pray tell my Mother I am in good",
+  "health, & kiſs the Children for me. I ſhall",
+  "write again by the firſt opportunity to Williamsburg.",
+  "I am, my dear Sarah, your moſt affectionate",
+  "Husband",
+  "Josiah Harwood"
+ ],
+ "uncertain": [
+  {
+   "line": 3,
+   "text": "Blair",
+   "reason": "capital B is faint"
+  }
+ ],
+ "writer_guess": "Josiah Harwood",
+ "date_guess": "12 January 1778",
+ "notes": "Demo sample."
+}

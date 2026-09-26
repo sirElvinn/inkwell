@@ -1,0 +1,8 @@
+.env
+.venv/
+.cache/
+__pycache__/
+eval/preds/
+eval/results.csv
+eval/data/*.ref.txt
+.DS_Store
